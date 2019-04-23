@@ -5,12 +5,12 @@ navigation_weight: 2
 permalink: "papers.html"
 ---
 
-## Manuscripts
+## Papers
 
 * **Random Walks on Hypergraphs with Edge-Dependent Vertex Weights**  
 Uthsav Chitra, Ben Raphael  
-_Submitted_
+_ICML 2019 (to appear)_
 
-* **Committee Selection is More Similar Than You Think: Evidence from Avalanche and Stellar**  
+* [**Committee Selection is More Similar Than You Think: Evidence from Avalanche and Stellar**](https://arxiv.org/abs/1904.09839)  
 Tarun Chitra, Uthsav Chitra  
-_Submitted_
+_Manuscript_  
