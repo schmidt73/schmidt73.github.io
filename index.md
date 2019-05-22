@@ -22,3 +22,7 @@ I graduated from [Brown University](https://www.brown.edu) in May 2017. I also w
 
 My research interests include graph algorithms and machine learning. Here is my [CV](chitra_cv_spring_2019.pdf).
 </div>
+&nbsp;
+## News
+
+- Our [paper on hypergraph theory](https://arxiv.org/abs/1905.08287) was accepted to [ICML 2019](https://icml.cc)!
