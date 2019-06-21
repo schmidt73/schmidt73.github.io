@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Uthsav Chitra
 email: uchitra@cs.princeton.edu
-description: First-year PhD student in Computer Science at Princeton University.
+description: Second-year PhD student in Computer Science at Princeton University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: uthsavc
