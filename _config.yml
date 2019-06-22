@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Uthsav Chitra
-email: uchitra@cs.princeton.edu
+email: uchitra [at] [school] [dot] edu
 description: Second-year PhD student in Computer Science at Princeton University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
