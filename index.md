@@ -20,7 +20,7 @@ I am a second-year PhD student in Computer Science at [Princeton University](htt
 
 I graduated from [Brown University](https://www.brown.edu) in May 2017. I also worked as a Software Engineer at [Facebook](https://www.facebook.com) from Fall 2017 to Fall 2018.
 
-My research interests include graph algorithms and machine learning. Here is my (slightly out-of-date) [CV](chitra_cv_summer_2019.pdf) and [Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao).
+My research interests include graph algorithms and machine learning. Here is my [CV](chitra_cv_summer_2019.pdf) and [Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao).
 </div>
 &nbsp;
 ## News
