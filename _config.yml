@@ -3,17 +3,20 @@ title: "On Mathematics, Computer Science, and Topics That Interest Me"
 author: "Henri Cabot Schmidt"
 description: "This is a blog about software, some mathematics, and the occasional philosophy. Not necessarily in that order."
 keywords: "Software Engineering, Mathematics, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
-biography: ""
+biography: "Dick"
 colophon: "© MMXIII — MMXVI by Hugo Sereno Ferreira.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
+
+email: henri.schmidt@tufts.edu
+github: https://github.com/schmidt73
+linkedin: https://www.linkedin.com/in/henri-schmidt-987204196
+stackexchange: https://math.stackexchange.com/users/326172/schmidt73
+
+theme: 
+  background-color: ASD
+  font-color: ASD
 
 baseurl: ""
 url: "https://henricschmidt.com"
-
-# twitter_username: 
-github_username: schmidt73
-linkedin_username: henri-schmidt-987204196
-# facebook_username:
-# google-analytics:
 
 simple_search: http://google.com/search
 markdown: kramdown
