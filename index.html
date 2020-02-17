@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
+
+<script type="text/javascript">
+  selectTopbarItem(0);
+</script>
+
 <div class="container main">
   <div>
     <header>
-      <div><center><h1>{{ site.title }}</h1></center></div>
+      <div><center><h1>Welcome!</h1></center></div>
       <center>
         <span class="big-ornament">
           <svg viewBox="310 350 400 350">
@@ -46,37 +51,51 @@ layout: default
       </center>
     </header>
   </div>
-  <div class="flex-grid landing">
-    <div class="author-col">
-      <div class="author-container">
-        <img class="logo" src="/assets/me.png"></img>
+  <div class="landing">
+    <div class="flex-grid">
+      <div class="author-col">
+        <div class="author-container">
+          <img class="logo" src="/assets/me.png"></img>
+        </div>
+        <div class="contact-container">
+          <h3>Contacts</h3>
+          <div class="icon-grid">
+            <div class="icon-row">
+              <div class="icon"></div>
+              <a class="icon" href={{ site.data.info.github }}>
+                <span class="fa fa-github fa-5x main-list-item-icon"></span>
+              </a>
+              <a class="icon" href={{ site.data.info.linkedin }}>
+                <span class="fa fa-linkedin fa-5x main-list-item-icon"></span>
+              </a>
+              <div class="icon"></div>
+            </div>
+            <div class="icon-row">
+              <div class="icon"></div>
+              <a class="icon" href={{ site.data.info.stackexchange }}>
+                <span class="fa fa-stack-exchange fa-5x main-list-item-icon">
+                </span>
+              </a>
+              <a class="icon" href=mailto:{{ site.data.info.email }}>
+                <span class="fa fa-envelope-o fa-5x main-list-item-icon"></span>
+              </a>
+              <div class="icon"></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <ul class="fa-ul main-list">
-        <li class="main-list-item">
-          <a href={{ site.github }}>GitHub</a>
-          <span class="fa fa-github fa-lg main-list-item-icon"></span>
-        </li>
-        <li class="main-list-item">
-          <a href={{ site.linkedin }}>LinkedIn</a>
-          <span class="fa fa-linkedin fa-lg main-list-item-icon"></span>
-        </li>
-        <li class="main-list-item">
-          <a href={{ site.stackexchange }}>StackExchange</a>
-          <span class="fa fa-stack-exchange fa-lg main-list-item-icon"></span>
-        </li>
-        <li class="main-list-item">
-          <a href=mailto:{{ site.email }}>{{ site.email }}</a>
-          <span class="fa fa-envelope-o fa-lg main-list-item-icon"></span>
-        </li>
-      </ul>
+      <div class="bio-col">
+        <h2 style="margin-top: 0;">Why?</h2>
+        <p>&emsp;&emsp;{{ site.data.info.why }}</p>
+        <h2>What about?</h2>
+        <p>&emsp;&emsp;{{ site.data.info.what }}</p>
+        <h2>Who am I?</h2>
+        <p>&emsp;&emsp;{{ site.data.info.biography }}</p>
+      </div>
     </div>
-    <div class="bio-col">
-      <h2 style="margin-top: 0;">Why?</h2>
-      <p>&emsp;&emsp;{{ site.why }}</p>
-      <h2>What about?</h2>
-      <p>&emsp;&emsp;{{ site.what }}</p>
-      <h2>A short biography</h2>
-      <p>&emsp;&emsp;{{ site.biography }}</p>
+    <hr />
+    <div class="newsfeed">
+      
     </div>
   </div>
 </div>

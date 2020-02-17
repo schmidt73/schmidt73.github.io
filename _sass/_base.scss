@@ -55,35 +55,72 @@ body {
     }
 }
 
-/*** wrapper div for both header and main ***/
-/*** anchor tags ***/
-.landing {
-    font-size: $base-font-size * 0.8;
+.topbar {
+    background-color: $article-bg-color;
+    border-bottom: 2px solid $alt-color;
+    height: 50px;
+    margin-bottom: 3em;
+    font-family: $base-font-family;
 
-    a:link,
-    a:visited,
-    a:hover,
+    .topbar-grid {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        height: 48px;
+        font-size: 1.2em;
+        
+        .topbar-item {
+            flex: 1;
+        }
+
+        .topbar-item-name {
+            flex: 2;
+            margin-left: 1.5em;
+            margin-right: 0em;
+            font-size: 1.3em;
+        }
+
+        .topbar-item-search {
+            text-align: right;
+            margin-right: 1.5em;
+            flex: 10;
+        }
+
+        .topbar-item-selected a {
+            color: $alt-color-darker;
+        }
+    }
+
+    a {
+        color: $text-color;
+    }
+        
+    a:hover {
+        text-decoration: underline;
+    }
+
     a:active {
         color: $alt-color-darker;
         text-decoration: none;
     }
 
-    a:hover {
-        text-decoration: underline;
-    }
+    
 
+}
+
+/*** wrapper div for both header and main ***/
+/*** anchor tags ***/
+.landing {
+    font-family: $base-font-family;
+    font-size: 0.8 * $base-font-size;
+    color: $text-color;
 
     /*** main content list ***/
     .main-list-item {
         font-weight: bold;
         font-size: 1.2em;
-        margin: 0.8em 0;
-    }
-
-    /* override the left margin added by font awesome for the main content list,
-since it must be aligned with the content */
-    .fa-ul.main-list {
-        margin-left: 0;
+        margin: 0;
     }
 
     /* list icons */
@@ -94,6 +131,7 @@ since it must be aligned with the content */
 
     .logo {
         margin: auto;
+        margin-top: 2em;
         width: 220px;
         height: auto;
         display: block;
@@ -104,7 +142,7 @@ since it must be aligned with the content */
     /*** author ***/
     .author-container {
         margin-top: 0;
-        margin-bottom: 10%;
+        margin-bottom: 6%;
     }
 
     /*** tagline ***/
@@ -112,6 +150,46 @@ since it must be aligned with the content */
         font-size: 1.3em;
         text-align: center;
         margin-bottom: 2em;
+    }
+
+    .contact-container {
+        h3 {
+            font-size: 2.3em;
+            margin-top: 0em;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+
+        .icon-grid {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .icon-row {
+            display: flex;
+            flex-direction: row;
+
+            .icon {
+                flex-grow: 1;
+            }
+        }
+    }
+
+    .author-col {
+        flex: 1;
+    }
+
+    .bio-col {
+        flex: 1.5;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+        background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+        background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+        background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
     }
 }
 
@@ -178,7 +256,7 @@ blockquote {
         border: 1px solid $bg-color-darker;
         margin-top: 16px;
         padding: 16px;
-        border-radius: 4px;
+        // border-radius: 4px;
         border-top: 3px solid $alt-color;
         width: 480px;
     }
@@ -196,14 +274,6 @@ blockquote {
     .flex-grid {
         display: flex;
     }
-}
-
-.author-col {
-    flex: 1;
-}
-
-.bio-col {
-    flex: 1.5;
 }
 
 .small-ornament, .big-ornament {
@@ -237,17 +307,13 @@ header {
 }
 
 footer {
-    margin-top: 1em;
+    margin-top: 3em;
     margin-bottom: 1em;
     font-size: $small-font-size;
-
     color: $alt-text-color;
 
-    .biography {
-        margin-top: 2em;
-        padding-bottom: 1em;
-        border-bottom: 1px solid $subdued-border;
-        margin-bottom: 1em;
+    p {
+        text-align: center;
     }
 
     h2 {

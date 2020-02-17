@@ -1,0 +1,37 @@
+# Info
+why: "The main reason you are seeing this page is because I thought
+I would enjoy making it. I did, but I also have other, more practical reasons for
+creating this blog. 
+One is that I know that writing helps me to elucidate and organize my thoughts. 
+Second is that this
+blog will act as living documentation of my work. And finally, I hope that my 
+perspective here will be valuable to some and at the very least, valuable to me."
+
+what: "Here I'll write about topics that interest me, work that I've done,
+and work that I am planning to do. At present, my main interests are 
+applications of probability, analysis, and algebra to machine learning. 
+ On the more 
+hobbyist side, I want to write about my love for computers. I advocate that 
+vim and emacs are human's greatest invention and that close behind, we have the unix 
+philosophy and LISP. This is far from an exhaustive list. In reality, I will explore 
+anything that interests me."
+
+biography: "I'm a senior undergraduate at Tufts University earning my 
+Bachelor of Science in Computer Science and Mathematics. Currently, I work in the 
+Bioinformatics and Computational Biology research group at Tufts. After graduating,
+I plan to take a year off before heading to graduate school for Machine Learning.
+I don't know what I'm going to do next year (besides applying for graduate school). One
+might say I'm rather confused."
+
+email: henri.schmidt@tufts.edu
+github: https://github.com/schmidt73
+linkedin: https://www.linkedin.com/in/henri-schmidt-987204196
+stackexchange: https://math.stackexchange.com/users/326172/schmidt73
+
+title: "Henri's Place"
+author: "Henri Cabot Schmidt"
+description: ""
+keywords: "Data Science, Software Engineering, Mathematics, Philosophy,
+emacs, Programming, Machine-Learning, Artificial Intelligence, Statistics, 
+Probability, Puzzles, Information Theory, vim, vi, unix, linux, analysis"
+colophon: "&copy; 2020 by Henri Schmidt"

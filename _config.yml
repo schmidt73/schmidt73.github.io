@@ -1,38 +1,4 @@
 # Site Settings
-title: "On Mathematics, Computer Science, and Topics That Interest Me"
-author: "Henri Cabot Schmidt"
-description: "This is a blog about software, some mathematics, and
-the occasional philosophy. Not necessarily in that order."
-keywords: "Software Engineering, Mathematics, Philosophy, Scala,
-Epistemology, Existentialism, Programming, Machine-Learning,
-Artificial Intelligence, Statistics, Probability, Puzzles"
-colophon: "© 2020 by Henri Schmidt."
-
-# About Me
-why: "This is a blog about topics that interest me, work that I've done,
-and work I am planning to do. If I have any aim with this site, it is that I <i>hope</i>
-my perspective will be valuable to some. I feel I need to give back to the community 
-that has given me so much."
-what: "At present, my main interests are applications of probability, analysis, and 
-algebra to machine learning. I want to be able to reason mathematically about the 
-\"goodness\" of our algorithms. On the more 
-hobbyist side, I want to write about my love for computers. I advocate that 
-vim and emacs are human's greatest invention and that close behind, we have the unix 
-philosophy and LISP. This is far from an exhaustive list. In reality, I will explore 
-anything that interests me."
-biography: "I'm a senior undergraduate at Tufts University earning my 
-Bachelor of Science in Computer Science and Mathematics. Currently, I work in the 
-Bioinformatics and Computational Biology research group at Tufts. After graduating,
-I plan to take a year off before heading to graduate school for Machine Learning.
-I don't know what I'm going to do next year (besides applying for graduate school). 
-If you have any ideas, I look forward to hearing your advice."
-
-email: henri.schmidt@tufts.edu
-github: https://github.com/schmidt73
-linkedin: https://www.linkedin.com/in/henri-schmidt-987204196
-stackexchange: https://math.stackexchange.com/users/326172/schmidt73
-
-
 baseurl: ""
 url: "https://henricschmidt.com"
 
