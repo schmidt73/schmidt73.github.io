@@ -249,6 +249,57 @@ blockquote {
     }
 }
 
+.blog {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 2em;
+        margin: 0 0 0 0.3em;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        font-variant: small-caps;
+        text-transform: lowercase;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+    }
+
+    .post-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .post-card {
+        flex: 1;
+        margin: 10px;
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid $text-color;
+
+            height: 180px;
+            //max-width: 100%;
+        }
+
+        p {
+            margin-top: 0.5em;
+            margin-bottom: 0em;
+            font-size: 1.2em;
+            text-align: center;
+        }
+    }
+
+    .post-math {
+        flex: 1;
+    }
+}
+
 
 @media (min-width: 480px) {
     .main {

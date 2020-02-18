@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<script type="text/javascript">
+  selectTopbarItem(1);
+</script>
+
+<div class="container main">
+  <div class="blog">
+    <h2>Recently Posted</h2>
+    <div class="post-row">
+      {% for post in site.posts %}
+      <div class="post-card">
+        <img src={{post.preview}}></img>
+        <a href="{{post.url}}">
+          <p>{{post.title}}</p>
+        </a>
+      </div>
+      <div class="post-card">
+      </div>
+      <div class="post-card">
+      </div>
+      {% endfor %}
+    </div>
+    <div class="post-row">
+      <div class="post-math">
+        <h3>Computer Science</h3>
+        <ul>
+          {% for post in site.posts %}
+          <li>{{post.image}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="post-math">
+        <h3>Mathematics</h3>
+        <ul>
+          <li>POST1</li>
+          <li>POST1</li>
+          <li>POST1</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
