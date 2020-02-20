@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sleeping Beauty A Guide To Long Names
+title: Shannon's Source Coding Theorem
 date: 2016-05-28 15:46
 comments: true
 categories: Mathematics
