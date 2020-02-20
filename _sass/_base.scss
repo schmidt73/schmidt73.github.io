@@ -37,6 +37,7 @@ body {
     }
 
     h1 {
+        font-size: 2.0em;
         font-weight: 600;
     }
 
@@ -58,8 +59,8 @@ body {
 .topbar {
     background-color: $article-bg-color;
     border-bottom: 2px solid $alt-color;
-    height: 50px;
-    margin-bottom: 3em;
+    height: 40px;
+    margin-bottom: 2em;
     font-family: $base-font-family;
 
     .topbar-grid {
@@ -67,8 +68,8 @@ body {
         flex-direction: row;
         align-items: center;
 
-        height: 48px;
-        font-size: 1.2em;
+        height: 38px;
+        font-size: 1em;
         
         .topbar-item {
             flex: 1;
@@ -113,7 +114,7 @@ body {
 /*** anchor tags ***/
 .landing {
     font-family: $base-font-family;
-    font-size: 0.8 * $base-font-size;
+    font-size: 0.64 * $base-font-size;
     color: $text-color;
 
     /*** main content list ***/
@@ -132,7 +133,7 @@ body {
     .logo {
         margin: auto;
         margin-top: 2em;
-        width: 220px;
+        width: 180px;
         height: auto;
         display: block;
         border: 2px solid $background-color;
@@ -320,7 +321,7 @@ blockquote {
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
     .main {
-        width: 780px;
+        width: 640px;
     }
     .flex-grid {
         display: flex;
@@ -344,14 +345,15 @@ blockquote {
 
 .big-ornament {
     > svg {
-        width: 14em;
-        height: 4em;
+        margin-bottom: 0.6em;
+        margin-right: 0.7em;
+        margin-left: 0.7em;
+        width: 11em;
+        height: 3.1em;
     }
 }
 
 header {
-    margin-bottom: 1em;
-
     p {
         margin-top: 1em;
     }
@@ -360,7 +362,7 @@ header {
 footer {
     margin-top: 3em;
     margin-bottom: 1em;
-    font-size: $small-font-size;
+    font-size: $small-font-size * 0.8;
     color: $alt-text-color;
 
     p {
