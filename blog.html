@@ -20,12 +20,19 @@ layout: default
     </div>
     {% endfor %}
   </div>
+  {% for category in site.categories %}
+  <h3>{{category[0]}}</h3>
+  {% for post in category[1] %}
   <div class="post-row">
-    <div class="post-math">
-      <h3>Computer Science</h3>
+    <div class="post-title">
+      <a href="{{post.url}}">
+        {{post.title}}
+      </a>
     </div>
-    <div class="post-math">
-      <h3>Mathematics</h3>
+    <div class="post-date">
+      Posted:&nbsp;&nbsp;{{post.date}}
     </div>
   </div>
+  {% endfor %}
+  {% endfor %}
 </div>

@@ -3,6 +3,6 @@ layout: post
 title: Why I use emacs in 2020
 date: 2020-02-20 14:20
 comments: true
-categories: emacs, unix, hacking
+categories: [Computer Science]
 preview: "/assets/post_previews/emacs.png"
 ---
