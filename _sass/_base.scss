@@ -72,20 +72,18 @@ body {
         font-size: 1em;
         
         .topbar-item {
-            flex: 1;
+            margin: 0 0.5em 0 0.5em;
         }
 
         .topbar-item-name {
-            flex: 2;
-            margin-left: 1.5em;
-            margin-right: 0em;
+            margin: 0 1.5em 0 1.5em;
             font-size: 1.3em;
         }
 
         .topbar-item-search {
+            flex: 1;
             text-align: right;
             margin-right: 1.5em;
-            flex: 10;
         }
 
         .topbar-item-selected a {
@@ -161,17 +159,34 @@ body {
             text-align: center;
         }
 
-        .icon-grid {
-            display: flex;
-            flex-direction: column;
-        }
+        @media (max-width: 767px) {
+            .icon-grid {
+                text-align: center;
+            }
 
-        .icon-row {
-            display: flex;
-            flex-direction: row;
+            .icon-row {
+                display: inline;
+            }
 
             .icon {
-                flex-grow: 1;
+                margin: 1.3em;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .icon-grid {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .icon-row {
+                flex: 1;
+                display: flex;
+                flex-direction: row;
+
+                .icon {
+                    flex-grow: 1;
+                }
             }
         }
     }
@@ -286,6 +301,7 @@ blockquote {
     .post-row {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .post-card {
@@ -360,6 +376,12 @@ blockquote {
 
     .flex-grid {
         display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .no-mobile {
+        display: none;
     }
 }
 
