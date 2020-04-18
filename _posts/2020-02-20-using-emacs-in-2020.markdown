@@ -119,7 +119,7 @@ my breath advocating for it. It's impressive. Check it out.
 
 ## Conclusion
 
-I've just listed a few of the reasons why you should check out
+I've just listed a few of the reasons for why you should check out
 emacs. I haven't even mentioned what it's like to program in emacs or
 use orgmode for organization. For me though, it's more than the
 features. Emacs makes me feel powerful and in control, as if I'm in
