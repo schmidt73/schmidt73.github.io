@@ -196,9 +196,10 @@ body {
     }
 
     .bio-col {
+        padding-right: 20px;
         flex: 1.5;
         p {
-            font-size: 1.15em;
+            font-size: 1.4em;
         }
     }
 
@@ -345,11 +346,31 @@ blockquote {
     margin: auto;
     display: flex;
     flex-direction: column;
-    font-size: 0.8em;
+    font-size: 1em;
 
     width: fit-content;
     max-width: 70%;
  
+    figure {
+        padding-top: 10px;
+    }
+
+    figure img {
+        max-width: 85%;
+        max-height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+
+    figure figcaption {
+        text-align: center;
+        font-style: italic;
+        color: $alt-text-color;
+    }
+
+
 }
 
 @media (min-width: 480px) {
@@ -369,9 +390,9 @@ blockquote {
 }
 
 /* All other devices (768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .main {
-        width: 640px;
+        width: 800px;
     }
 
     .flex-grid {
@@ -450,6 +471,11 @@ footer {
 
     > ol {
         margin-left: -1.5em;
+    }
+
+    p {
+        margin-bottom: 0em;
+        margin-top: 0em;
     }
 }
 
