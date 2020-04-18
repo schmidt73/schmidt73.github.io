@@ -123,7 +123,8 @@ I've just listed a few of the reasons why you should check out
 emacs. I haven't even mentioned what it's like to program in emacs or
 use orgmode for organization. For me though, it's more than the
 features. Emacs makes me feel powerful and in control, as if I'm in
-the brains of the computer. It makes programming a joy.
+the brains of the computer. It makes programming a joy and who could
+ask for more than that.
 
 [^1]: emacs: <https://www.gnu.org/software/emacs/>
 [^2]: evil (vim): <https://github.com/emacs-evil/evil >
