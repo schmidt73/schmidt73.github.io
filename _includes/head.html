@@ -8,7 +8,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
   <link rel="manifest" href="/assets/icons/site.webmanifest">
 
-  <title>{% if site.data.info.title %}{{ site.data.info.title }}{% else %}{{ site.data.info.title }}{% endif %}</title>
+  <title>{{page.title}}</title>
+  <meta property="og:title" content="{{page.title}}" />
+  {% if page.preview %}<meta property="og:image" content="{{page.preview}}" />{% endif %}
 
   {% capture description %}{% if page.description %}{{ page.description }}{% elsif page.title %}{{ content | raw_content }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
   <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}" />
