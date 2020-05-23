@@ -3,6 +3,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="theme-color" content="hsl(35, 36%, 95%)">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+
   <title>{% if site.data.info.title %}{{ site.data.info.title }}{% else %}{{ site.data.info.title }}{% endif %}</title>
 
   {% capture description %}{% if page.description %}{{ page.description }}{% elsif page.title %}{{ content | raw_content }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
@@ -14,9 +19,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <span itemprop='author'><meta name="author" content="{{ site.author }}"><span itemprop='author'></span>
-
-    <link href="/favicon.png" rel="icon">
-    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/PT+Serif:400,400i,700,700i:f/Source+Code+Pro:400,600:f">
+        <link rel="stylesheet" href="//brick.a.ssl.fastly.net/PT+Serif:400,400i,700,700i:f/Source+Code+Pro:400,600:f">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 Reasons To Use emacs in 2020
-date: 2020-02-20 14:20
+date: 2020-04-20 14:20
 comments: true
 categories: [Computer Science]
 preview: "/assets/post_previews/emacs.png"
