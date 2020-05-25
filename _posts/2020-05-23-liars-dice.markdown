@@ -87,7 +87,7 @@ has quantity greater than or equal to $m$ as,
 
 $$P[S_{n,k} \geq m] = \sum_{i=m}^{n}P[S_{n,k} = i]
 = \sum_{i=m}^{n}{n \choose i}
-\left(\frac{1}{3}\right)^i\left(\frac{2}{3}\right)^{n-i}$$ 
+\left(\frac{1}{3}\right)^i\left(\frac{2}{3}\right)^{n-i} \text{ for } k \in \{2 \ldots 6\}$$ 
 
 However, I
 will argue that this is not the quantity that we care about.
@@ -134,8 +134,9 @@ $$\mathbb{P}(\bigcup_{i=1}^nA_i) \geq \sum_{i=1}^{n}\mathbb{P}[A_i] - \sum_{i = 
 I won't prove the lemma here; it is an obvious consequence of set
 intersections and is proved in several places [^2].
 
-The probability of some outcome being large in quantity
--------------------------------------------------------
+## The probability of some outcome being large in quantity
+
+### Case: Not double counting ones
 
 First let us assume that we are no longer counting duplicates. Then,
 $S_{n,k}$ are binomial distributions with parameter $p = \frac{1}{6}$
@@ -171,10 +172,47 @@ $$\mathbb{P}[S_{n,i} = m_i, S_{n,j} = m_j] = {n \choose m_i + m_j}{m_i + m_j \ch
 Now we finally have the inequality, which is very tight for large values of $m$ relative to $n$:
 
 $$\begin{aligned}
-Pr[\exists k \in \{1 \ldots 6\} : S_{n,k} \geq m] &\geq 6\sum_{i=m}^{n}{n \choose i}
+\mathbb{P}[\exists k \in \{1 \ldots 6\} : S_{n,k} \geq m] &\geq 6\sum_{i=m}^{n}{n \choose i}
 \left(\frac{1}{6}\right)^i\left(\frac{5}{6}\right)^{n-i}\\ &-
                                                              15 \sum_{i=m}^{n}\sum_{j=m}^{n}{n \choose i + j}{i + j\choose i}
 \left(\frac{1}{6}\right)^{i+j}\left(\frac{2}{3}\right)^{n - (i+j)}\end{aligned}$$
+
+### Case: Double counting ones
+
+It was natural to first consider the case where we don't double count
+ones as it is much easier to handle. Now we can apply similar counting
+arguments to the more difficult case.
+
+We now have two seperate intersections to consider:
+
+$$\mathbb{P}[X_1 = m_1, X_j = m_j] \text{ and } \mathbb{P}[X_i = m_i, X_j = m_j]$$
+
+The first is straightforward to handle using a convolution, whereas
+the second requires a little more work. Using a convolution and looking
+at the other case yields,
+
+$$\mathbb{P}[X_1 = m_1, X_j = m_j] = {n \choose m_1}{n - m_1 \choose m_j - m_1}
+\left(\frac{1}{6}\right)^{m_j}\left(\frac{2}{3}\right)^{n - m_j}$$ 
+
+To handle the other case, we notice that
+
+$$\mathbb{P}[X_i = m_i, X_j = m_j] = \sum_{k=0}^n\mathbb{P}[X_1 = k, X_i = m_i, X_j = m_j]$$
+
+and then apply the convolution technique to the RHS, yielding,
+
+$$\mathbb{P}[X_1 = m_1, X_i = m_i, X_j = m_j] = {n \choose m_1} {n - m_1 \choose m_i - m_1}
+{n - m_i \choose m_j - m_1} \left(\frac{1}{6}\right)^{m_i + m_j - m_1} \left(\frac{1}{6}\right)^{n - (m_i + m_j - m_1)}$$
+
+Finally we can put this all together, giving us,
+
+$$\begin{aligned}
+\mathbb{P}[\exists k \in \{1 \ldots 6\} : S_{n,k} \geq m] &\geq 
+\mathbb{P}[X_1 \geq m] + 5\mathbb{P}[X_2 \geq m] - 5\mathbb{P}[X_1 \geq m, X_2 \geq m] 
+- 10\mathbb{P}[X_2 \geq m, X_3 \geq m]
+\end{aligned}$$
+
+which after plugging in the required equations give us everything we
+need!
 
 Defying expectations 
 ====================
@@ -184,7 +222,7 @@ to call a bluff when someone deviates significantly from the expected
 quantity of a certain outcome on the table, but this isn't always
 reasonable to do.
 
-Case 1: not double counting ones 
+Case: Not double counting ones 
 --------------------------------
 Using the formula derived in the last section, we can show that we
 defy expectations.
@@ -227,11 +265,29 @@ greater than 55%.
 | $n = 6$         | 0.05       | 0.00       | 0.00       | 0.00       | 0.00       | 0.00       | 0.00        | 0.0         |
 | $n = 5$         | 0.02       | 0.00       | 0.00       | 0.00       | 0.00       | 0.00       | 0.00        | 0.0         |
 
-Case 2: double counting ones 
+Case: Double counting ones 
 ----------------------------
-I have to re-derive the formula for the case where ones are wild. As
-it took a while to derive the inequality in the non-wild case, I'm
-going to leave this for later.
+
+Here is a smaller tabler for the case where where ones are wild. I
+excluded the really common rolls to keep it interesting, you can
+figure those out for yourself!
+
+| Number of Rolls | $m \geq 10$ | $m \geq 11$ | $m \geq 12$ | $m \geq 13$ | $m \geq 14$ |
+|:----------------|:------------|:------------|:------------|:------------|:------------|
+| $n = 25$        | 0.52        | 0.371       | 0.28        | 0.16        | 0.071       |
+| $n = 24$        | 0.44        | 0.351       | 0.23        | 0.116       | 0.046       |
+| $n = 23$        | 0.36        | 0.31        | 0.18        | 0.080       | 0.029       |
+| $n = 22$        | 0.36        | 0.258       | 0.13        | 0.052       | 0.017       |
+| $n = 21$        | 0.33        | 0.201       | 0.090       | 0.032       | 0.009       |
+| $n = 20$        | 0.28        | 0.147       | 0.058       | 0.018       | 0.0043      |
+| $n = 19$        | 0.22        | 0.1         | 0.034       | 0.009       | 0.0019      |
+| $n = 18$        | 0.16        | 0.0634      | 0.019       | 0.004       | 0.0007      |
+| $n = 17$        | 0.11        | 0.0366      | 0.009       | 0.001       | 0.0002      |
+| $n = 16$        | 0.069       | 0.0191      | 0.004       | 0.0005      | 0.0         |
+| $n = 15$        | 0.038       | 0.00872     | 0.001       | 0.0002      | 0.0         |
+| $n = 14$        | 0.019       | 0.00339     | 0.0         | 0.0         | 0.0         |
+| $n = 13$        | 0.0079      | 0.001       | 0.0         | 0.0         | 0.0         |
+| $n = 12$        | 0.0026      | 0.0         | 0.0         | 0.0         | 0.0         |
 
 Python Code
 ----------
@@ -241,24 +297,67 @@ python code to compute the lower bound in the case where ones are not
 double counted.
 
 ```python
-import math
+def comb(n, k):
+    if k < 0:
+        return 0
+    return math.comb(n, k)
 
-def p_exists_no_repeats(n, m):
+def p_s1_sj_sk(n, m1, mj, mk):
+    combs = comb(n, m1) * comb(n - m1, mj - m1) * comb(n - mj, mk - m1)
+    pr = math.pow(1/6, mj + mk - m1) * math.pow(1/2, n - (mj + mk - m1))
+    return combs * pr
+
+def p_sj_sk(n, mj, mk):
+    s = 0
+    for i in range(0, n + 1):
+        s += p_s1_sj_sk(n, i, mj, mk)
+    return s
+
+def p_s1_sj(n, m1, mj):
+    combs = comb(n, m1) * comb(n - m1, mj - m1)
+    pr = math.pow(1/6, mj) * math.pow(2/3, n - mj)
+    return combs * pr
+
+def p_exists_wild_ones(n, m):
+    s0 = 0
+    for i in range(m, n + 1):
+        s0 += comb(n, i) * math.pow(1/6, i) * math.pow(5/6, n - i)
+
     s1 = 0
     for i in range(m, n + 1):
-        s1 += math.comb(n, i) * math.pow(1/6, i) * math.pow(5/6, n - i)
+        s1 += comb(n, i) * math.pow(1/3, i) * math.pow(2/3, n - i)
+    s1 *= 5
+
+    s2 = 0
+    for i in range(m, n + 1):
+        for j in range(i, n + 1):
+            s2 += p_s1_sj(n, i, j)
+    s2 *= 5
+    
+    s3 = 0
+    for i in range(m, n + 1):
+        for j in range(m, n + 1):
+            s3 += p_sj_sk(n, i, j)
+    s3 *= 10
+ 
+    return (s1 + s0) - (s2 + s3)
+
+def p_exists(n, m):
+    s1 = 0
+    for i in range(m, n + 1):
+        s1 += comb(n, i) * math.pow(1/6, i) * math.pow(5/6, n - i)
     s1 *= 6
 
     s2 = 0
     for i in range(m, n + 1):
         for j in range(m, n + 1):
-            c = math.comb(n, i + j) * math.comb(i + j, i)
+            c = comb(n, i + j) * comb(i + j, i)
             pr = math.pow(1/6, i +j) * math.pow(2/3, n - (i + j))
             s2 += c * pr
-
     s2 *= 15
 
     return s1 - s2
+
 ```
 
 [^1]: [Liar's Dice Wikipedia Entry](https://en.wikipedia.org/wiki/Liar%27s_dice)
