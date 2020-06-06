@@ -9,7 +9,8 @@ permalink: "papers.html"
 
 * **<span style="color:maroon">NetMix: A network-structured mixture model for reducing bias in the identification of altered subnetworks.</span>**    
 Matthew A Reyna\*, Uthsav Chitra\*, Rebecca Elyanow, Benjamin J Raphael   
-_International Conference on Research in Computational Molecular Biology (**RECOMB 2020**)_, to appear    
+_International Conference on Research in Computational Molecular Biology (**RECOMB 2020**)_    
+[[pdf](https://www.biorxiv.org/content/10.1101/2020.01.18.911438v1)]    
 
 * **<span style="color:maroon">Understanding Filter Bubbles and Polarization in Social Networks</span>**    
 Uthsav Chitra\*, Christopher Musco\*   

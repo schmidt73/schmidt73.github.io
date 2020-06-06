@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Personal
-navigation_weight: 6
+navigation_weight: 5
 permalink: "personal.html"
 ---
 
@@ -11,4 +11,4 @@ Outside of research, I spend most of my time [bouldering](http://instagram.com/u
 
 I also enjoy biking, word games, and bad puns.
 
-<sup>(Website last updated December 26, 2019.)</sup>
+<sup>(Website last updated June 5, 2020.)</sup>
