@@ -7,9 +7,9 @@ permalink: "teaching.html"
 
 # Teaching
 
-I currently teach math classes at a New Jersey state prison through the [Prison Teaching Initative](http://www.prisonteaching.org).
+I currently teach math classes at a New Jersey state prison through the [Prison Teaching Initative](http://www.prisonteaching.org) (PTI). I am also helping develop a new computer science course for PTI.
 
-I also was an undergraduate teaching assistant for the following courses at Brown.
+During my undergrad, I was a teaching assistant for the following courses at Brown.
 
 * [MATH 1560: Number Theory](https://www.brown.edu/academics/math/course-descriptions), taught by Prof. Mike Rosen (Spring 2017)    
 
