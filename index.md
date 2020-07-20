@@ -16,16 +16,19 @@ navigation_weight: 1
 
 ![right-aligned-image](headshot5.png){: .image-left width="315px"}
 <div markdown="1" class="spaced-lines">
-I am a third-year PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu), where I am fortunate to be advised by [Prof. Ben Raphael](http://compbio.cs.brown.edu).    
+I am a third-year PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu), where I am fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu).     
 
-I am broadly interested in algorithms with applications in computational biology or machine learning. My current interests are in algorithms for learning and analyzing network interactions.    
+My research interests are in algorithms, machine learning, and statistics, with a particular interest in problems arising from biological applications. My current research focuses on developing algorithms for analyzing structured data (e.g. networks).    
+     
+[[Google Scholar]](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao)    
+[[CV]](chitra_cv_spring_2020.pdf)
 
-I graduated from [Brown University](https://www.brown.edu) in May 2017, and I worked as a Software Engineer at [Facebook](https://www.facebook.com) from Fall 2017 to Fall 2018.
-
-Here is [my CV](chitra_cv_spring_2020.pdf) and [Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao).
+<!-- Here is [my CV](chitra_cv_spring_2020.pdf) and [Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao). -->
 </div>
 &nbsp;
 ## News
 
+- New [preprint](https://arxiv.org/abs/2007.07878) on bias in structured anomaly estimation.
+- I presented [NetMix](https://www.biorxiv.org/content/10.1101/2020.01.18.911438v1) at RECOMB 2020 ([slides](recomb2020_pres.pdf)).
 - I received an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship)!
-- Our paper on altered subnetworks identification was accepted to [RECOMB 2020](https://www.recomb2020.org)!
+- Our paper on altered subnetworks identification was accepted to [RECOMB 2020](https://www.recomb2020.org).
