@@ -1,510 +1,315 @@
+/* ==========================================================================
+   BASE ELEMENTS
+   ========================================================================== */
+html {
+  /* sticky footer fix */
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-feature-settings: "kern", "liga=1, dlig=1", "salt";
-    -ms-font-feature-settings: "kern", "liga", "dlig", "salt";
-    -webkit-font-feature-settings: "kern", "liga", "dlig", "salt";
-    -o-font-feature-settings: "kern", "liga", "dlig", "salt";
-    font-feature-settings: "kern", "liga", "dlig", "salt";
-    text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 9em;
+  color: $text-color;
+  font-family: $global-font-family;
+  line-height: 1.5;
 
-    background-color: $background-color;
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    color: $text-color;
-
-    a, a:hover {
-        color: $alt-color;
-    }
-
-    p {
-        line-height: $base-line-height;
-    }
-
-    article > :first-child {
-        &:first-letter {
-            color: $alt-color-darker;
-            display: inline-block;
-            float: left;
-            font-size: 3.2em;
-            line-height: 0.7em;
-            font-style: normal;
-            font-weight: bold;
-            margin: 0.12em 0.15em 0 -0.01em;
-        }
-
-        min-height: 2em + $base-line-height;
-    }
-
-    h1 {
-        font-size: 2.0em;
-        font-weight: 600;
-    }
-
-    h2 {
-        margin-top: 1em;
-        font-size: 1.6em;
-        margin-bottom: 0.6em;
-    }
-
-    h3 {
-        font-size: 1.2em;
-        font-variant: small-caps;
-        text-transform: lowercase;
-        font-weight: bold;
-        letter-spacing: 0.15em;
-    }
+  &.overflow--hidden {
+    /* when primary navigation is visible, the content in the background won't scroll */
+    overflow: hidden;
+  }
 }
 
-.topbar {
-    background-color: $article-bg-color;
-    border-bottom: 2px solid $alt-color;
-    height: 40px;
-    margin-bottom: 2em;
-    font-family: $base-font-family;
-
-    .topbar-grid {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        height: 38px;
-        font-size: 1em;
-        
-        .topbar-item {
-            margin: 0 0.5em 0 0.5em;
-        }
-
-        .topbar-item-name {
-            margin: 0 1.5em 0 1.5em;
-            font-size: 1.3em;
-        }
-
-        .topbar-item-search {
-            flex: 1;
-            text-align: right;
-            margin-right: 1.5em;
-        }
-
-        .topbar-item-selected a {
-            color: $alt-color-darker;
-        }
-    }
-
-    a {
-        color: $text-color;
-    }
-        
-    a:hover {
-        text-decoration: underline;
-    }
-
-    a:active {
-        color: $alt-color-darker;
-        text-decoration: none;
-    }
-
-    
-
+h1, h2, h3, h4, h5, h6 {
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: $header-font-family;
+  font-weight: bold;
 }
 
-/*** wrapper div for both header and main ***/
-/*** anchor tags ***/
-.landing {
-    font-family: $base-font-family;
-    font-size: 0.64 * $base-font-size;
-    color: $text-color;
-
-    /*** main content list ***/
-    .main-list-item {
-        font-weight: bold;
-        font-size: 1.2em;
-        margin: 0;
-    }
-
-    /* list icons */
-    .main-list-item-icon {
-        width: 36px;
-        color: $text-color;
-    }
-
-    .logo {
-        margin: auto;
-        margin-top: 2em;
-        width: 180px;
-        height: auto;
-        display: block;
-        border: 2px solid $background-color;
-        box-shadow: 0 0 0 3px $alt-color-darker;
-    }
-
-    /*** author ***/
-    .author-container {
-        margin-top: 0;
-        margin-bottom: 6%;
-    }
-
-    /*** tagline ***/
-    .tagline-container p {
-        font-size: 1.3em;
-        text-align: center;
-        margin-bottom: 2em;
-    }
-
-    .contact-container {
-        h3 {
-            font-size: 2.3em;
-            margin-top: 0em;
-            margin-bottom: 0.5em;
-            text-align: center;
-        }
-
-        @media (max-width: 767px) {
-            .icon-grid {
-                text-align: center;
-            }
-
-            .icon-row {
-                display: inline;
-            }
-
-            .icon {
-                margin: 1.3em;
-            }
-        }
-
-        @media (min-width: 768px) {
-            .icon-grid {
-                display: flex;
-                flex-direction: column;
-            }
-            
-            .icon-row {
-                flex: 1;
-                display: flex;
-                flex-direction: row;
-
-                .icon {
-                    flex-grow: 1;
-                }
-            }
-        }
-    }
-
-    .author-col {
-        flex: 1;
-    }
-
-    .bio-col {
-        padding-right: 20px;
-        flex: 1.5;
-        p {
-            font-size: 1.4em;
-        }
-    }
-
-    hr {
-        border: 0;
-        height: 1px;
-        background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-        background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-        background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-        background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-    }
+h1 {
+  margin-top: 0;
+  font-size: $type-size-3;
 }
 
-article {
-    ul li {
-        padding-left: 0em;
-        margin-bottom: 0;
-        list-style: none;
-    }
-
-    ul {
-        position: relative;
-        padding: 0;
-        margin-left: 0;
-    }
-
-    ul > li:before {
-        position: absolute;
-        content: "▪";
-        color: $alt-color;
-        left: -1.15em;
-    }
-
-    pre, code {
-        background-color: $background-color;
-    }
-
-    pre {
-        padding: 1em;
-        border-radius: 5px;
-    }
-
-    code {
-        font-family: $mono-font-family;
-    }
+h2 {
+  font-size: $type-size-4;
 }
+
+h3 {
+  font-size: $type-size-5;
+}
+
+h4 {
+  font-size: $type-size-6;
+}
+
+h5 {
+  font-size: $type-size-6;
+}
+
+h6 {
+  font-size: $type-size-6;
+}
+
+small, .small {
+  font-size: $type-size-6;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+u,
+ins {
+  text-decoration: none;
+  border-bottom: 1px solid $text-color;
+  a {
+    color: inherit;
+  }
+}
+
+del a {
+  color: inherit;
+}
+
+/* reduce orphans and widows when printing */
+
+p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+  orphans: 3;
+  widows: 3;
+}
+
+/* abbreviations */
+
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: none;
+  cursor: help;
+  border-bottom: 1px dotted $text-color;
+}
+
+/* blockquotes */
 
 blockquote {
-    margin-top: 1em;
+  margin: 2em 1em 2em 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-style: italic;
+  border-left: 0.25em solid $primary-color;
+
+  cite {
+    font-style: italic;
+
+    &:before {
+      content: "\2014";
+      padding-right: 5px;
+    }
+  }
+}
+
+/* links */
+
+a {
+  &:focus {
+    @extend %tab-focus;
+  }
+
+  &:hover,
+  &:active {
+    outline: 0;
+  }
+}
+
+/* code */
+
+tt, code, kbd, samp, pre {
+  font-family: $monospace;
+}
+
+pre {
+  overflow-x: auto; /* add scrollbars to wide code blocks*/
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  font-size: $type-size-6;
+  background: $code-background-color;
+  border: 1px solid $lighter-gray;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  &:before, &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; /* non-breaking space*/
+  }
+}
+
+/* horizontal rule */
+
+hr {
+  display: block;
+  margin: 1em 0;
+  border: 0;
+  border-top: 1px solid $border-color;
+}
+
+/* lists */
+
+ul li,
+ol li {
+  margin-bottom: 0.5em;
+}
+
+li ul,
+li ol {
+  margin-top: 0.5em;
+}
+
+/*
+   Media and embeds
+   ========================================================================== */
+
+/* Figures and images */
+
+figure {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2em 0;
+
+  img,
+  iframe,
+  .fluid-width-video-wrapper {
     margin-bottom: 1em;
-    border-left: 2pt solid $alt-color;
-    padding-left: 0.9em;
-    margin-left: -1em;
-    font-style: oblique;
+  }
 
-    > :last-child {
-        margin-bottom: 0;
+  img {
+    width: 100%;
+    border-radius: $border-radius;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+  }
+
+  > a {
+    display: block;
+  }
+
+  &.half {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(50% - 0.5em);
+      }
     }
 
-    code {
-        font-style: normal;
-        font-weight: 400;
+    figcaption {
+      width: 100%;
+    }
+  }
+
+  &.third {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(33.3333% - 0.5em);
+      }
     }
 
-    em {
-        font-style: normal;
+    figcaption {
+      width: 100%;
     }
+  }
 }
 
-.blog {
-    background-color: $article-bg-color;
-    border: 1px solid $bg-color-darker;
-    margin-top: 16px;
-    padding: 16px;
-    border-top: 3px solid $alt-color;
+/* Figure captions */
 
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    font-size: 0.8em;
+figcaption {
+  margin-bottom: 0.5em;
+  color: mix(#fff, $text-color, 25%);
+  font-family: $caption-font-family;
+  font-size: $type-size-6;
 
-    width: fit-content;
-    max-width: 70%;
-    
-    h2 {
-        font-size: 2em;
-        margin: 0 0 0 0.3em;
-        font-weight: bold;
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid $light-gray;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+
+    &:hover {
+      color: #000;
+      border-bottom-color: #000;
     }
-
-    h3 {
-        font-size: 1.9em;
-        font-variant: small-caps;
-        text-transform: lowercase;
-        font-weight: bold;
-        letter-spacing: 0.15em;
-        text-decoration: underline;
-    }
-
-    .post-row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .post-card {
-        flex: 1;
-        margin: 10px;
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border: 3px solid $text-color;
-
-            height: 150px;
-        }
-
-        p {
-            margin-top: 0.7em;
-            margin-bottom: 0.0em;
-            font-size: 1.2em;
-            text-align: center;
-        }
-    }
-
-    .post-title {
-        font-size: 1.2em;
-    }
-
-    .post-date {
-        flex: 1;
-        text-align: right;
-    }
+  }
 }
 
-.post {
-    background-color: $article-bg-color;
-    border: 1px solid $bg-color-darker;
-    margin-top: 16px;
-    padding: 16px;
-    border-top: 3px solid $alt-color;
 
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
+/* Fix IE9 SVG bug */
 
-    width: fit-content;
-    max-width: 70%;
- 
-    figure {
-        padding-top: 10px;
-    }
-
-    figure img {
-        max-width: 85%;
-        max-height: 85%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 10px;
-    }
-
-    figure figcaption {
-        text-align: center;
-        font-style: italic;
-        color: $alt-text-color;
-    }
-
-
+svg:not(:root) {
+  overflow: hidden;
 }
 
-@media (min-width: 480px) {
-    .main {
-        background-color: $article-bg-color;
-        border: 1px solid $bg-color-darker;
-        margin-top: 16px;
-        padding: 16px;
-        // border-radius: 4px;
-        border-top: 3px solid $alt-color;
-        width: 480px;
-    }
 
-    .flex-grid {
-        display: block;
-    }
+/*
+   Navigation lists
+   ========================================================================== */
+
+/**
+ * Removes margins, padding, and bullet points from navigation lists
+ *
+ * Example usage:
+ * <nav>
+ *    <ul>
+ *      <li><a href="#link-1">Link 1</a></li>
+ *      <li><a href="#link-2">Link 2</a></li>
+ *      <li><a href="#link-3">Link 3</a></li>
+ *    </ul>
+ *  </nav>
+ */
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* override white-space for nested lists */
+  ul li,
+  ol li {
+    margin-bottom: 0;
+  }
+
+  li ul,
+  li ol {
+    margin-top: 0;
+  }
 }
 
-/* All other devices (768px and up) */
-@media (min-width: 800px) {
-    .main {
-        width: 800px;
-    }
+/*
+   Global animation transition
+   ========================================================================== */
 
-    .flex-grid {
-        display: flex;
-    }
-}
-
-@media (max-width: 767px) {
-    .no-mobile {
-        display: none;
-    }
-}
-
-.small-ornament, .big-ornament {
-    > svg {
-        display: inline-block;
-        vertical-align: middle;
-        width: 40px;
-        height: 40px;
-
-        path {
-            fill: $alt-color-darker;
-            fill-rule: evenodd;
-            shape-rendering: geometricPrecision;
-        }
-    }
-}
-
-.big-ornament {
-    > svg {
-        margin-bottom: 0.6em;
-        margin-right: 0.7em;
-        margin-left: 0.7em;
-        width: 11em;
-        height: 3.1em;
-    }
-}
-
-header {
-    p {
-        margin: 0em;
-    }
-}
-
-footer {
-    margin-top: 3em;
-    margin-bottom: 1em;
-    font-size: $small-font-size * 0.8;
-    color: $alt-text-color;
-
-    p {
-        text-align: center;
-    }
-
-    h2 {
-        font-size: 1.2em;
-        font-variant: small-caps;
-        text-transform: lowercase;
-        font-weight: bold;
-        letter-spacing: 0.15em;
-    }
-
-    a, a:hover {
-        color: $alt-color-darker;
-    }
-}
-
-.footnotes {
-    border-top: 1px solid $subdued-border;
-    padding-top: 1em;
-    margin-top: 2em;
-
-    ul, ol {
-        margin-left: -2em;
-    }
-
-    > ol {
-        margin-left: -1.5em;
-    }
-
-    p {
-        margin-bottom: 0em;
-        margin-top: 0em;
-    }
-}
-
-sup > .footnote {
-    margin-left: -0.2em;
-    font-style: normal;
-}
-
-table {
-    margin: 0 auto;
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-    border-spacing: 2em 0.1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    border-collapse: separate;
-    background-color: $background-color;
-    border-left: 2.5pt solid $alt-color;
-
-    td, th {
-        display: table-cell;
-        vertical-align: inherit;
-        border: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    th {
-        padding-bottom: 0.6em;
-        // border-bottom: 2px solid $alt-color;
-    }
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
 }
