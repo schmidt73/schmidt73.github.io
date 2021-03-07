@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Henri Schmidt / Differentiating "
 title_separator          : "-"
 name                     : &name "Henri Schmidt"
-description              : &description "Incoming PhD Student at Princeton CS or Tri-I Computational Biology"
+description              : &description "Incoming PhD Student"
 url                      : "https://schmidt73.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "schmidt73/schmidt73.github.io"
@@ -157,7 +157,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--end_excerpt-->"
 incremental: false
 
 

@@ -8,13 +8,15 @@ categories: [math]
 During the last week of quarantine with my friends from college, we
 spent a lot of time playing a drinking game called Liar's Dice [^1]. I
 loved playing it and was curious as to optimal decision during play,
-so I decided to do some analysis on it. Despite the game's
-simplicity, the questions I wanted to answer ended up being more
-difficult than anticipated. I hope you enjoy my unique perspective
-on a rather fun game!
+so I decided to do some analysis on it. Despite the game's simplicity,
+the questions I wanted to answer ended up being more difficult than
+anticipated. I hope you enjoy my unique perspective on a rather fun
+game!
+
+<!--end_excerpt-->
 
 Initial Surprises
-================
+======
 
 Suppose my friends and I are in the first round of liar's dice, so
 that there are $n = 25$ total dice in our cups. Would you be surprised
