@@ -1,7 +1,8 @@
 ---
 layout: archive
-title: "CV"
+title: "Short CV"
 permalink: /cv/
+css: true
 author_profile: true
 redirect_from:
   - /resume
@@ -9,51 +10,52 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+![Tufts](../images/tufts-fall.jpg)
+
+<pre>
+</pre>
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<hr>
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+**Computational Biologist**: *Memorial Sloan Kettering Cancer Center*
+* August 2020 - August 2021
+* Supervisor: Christina Leslie, PhD
+
+**Research Assistant**: *BCB Lab at Tufts University*
+* May 2019 - June 2020
+* Supervisor: Professor Lenore Cowen
   
-Talks
+**Software Engineering Intern**: *Rocket Software*
+* June 2018 - September 2018 
+
+**High Performance Computing Intern**: *Hewlett Packard Enterprise*
+* June 2017 - September 2017
+
+Education
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+
+<hr>
+
+**Princeton University**: *Department of Computer Science*
+* August 2021 - Present
+* PhD Candidate
+
+**Tufts University**: *Department of Computer Science and Department of Mathematics*
+* August 2016 - May 2020
+* Bachelor of Science, 3.77 GPA
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<hr>
+
+**COMP 40 - Machine Structure and Assembly Language**: *Tufts University*
+* Fall 2017 
+
+
+**COMP 150 - Network Science**: *Tufts University*
+* Fall 2019 
+

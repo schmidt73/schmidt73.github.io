@@ -6,6 +6,10 @@ layout: default
   {% include page__hero.html %}
 {% endif %}
 
+{% if page.css %}
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/cv.css">
+{% endif %}
+
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
