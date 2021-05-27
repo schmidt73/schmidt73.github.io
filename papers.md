@@ -22,7 +22,7 @@ _[arXiv not updated yet]_
 Matthew A. Reyna\*, **Uthsav Chitra\***, Rebecca Elyanow, Benjamin J. Raphael   
 International Conference on Research in Computational Molecular Biology (**RECOMB 2020**) [[slides](recomb2020_pres.pdf)]    
 
-* [<span style="color:maroon">Analyzing the Impact of Filter Bubbles on Social Network Polarization</span>](https://arxiv.org/abs/1906.08772)<sup>(A)</sup>     
+* [<span style="color:maroon">Analyzing the Impact of Filter Bubbles on Social Network Polarization</span>](https://arxiv.org/abs/1906.08772)    
 **Uthsav Chitra**, Christopher Musco    
 ACM Conference on Web Search and Data Mining (**WSDM 2020**)    
 Preliminary version presented at KDD WISDOM 2019 workshop    
@@ -36,4 +36,3 @@ International Conference on Machine Learning (**ICML 2019**)
 
 
 \* denotes joint first authorship.     
-<sup>(A)</sup> denotes alphabetical ordering of authors.
