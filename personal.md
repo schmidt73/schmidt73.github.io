@@ -11,4 +11,4 @@ Outside of research, I spend most of my time [bouldering](http://instagram.com/u
 
 I also enjoy biking, word games, and bad puns.
 
-<sup>(Website last updated July 19, 2020.)</sup>
+<sup>(Website last updated May 26, 2021.)</sup>
