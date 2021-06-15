@@ -18,7 +18,7 @@ navigation_weight: 1
 <div markdown="1" class="spaced-lines">
 I am a third-year PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu).
 
-I am broadly interested in developing statistical models and algorithms to address biological problems (sometimes also working in machine learning). My current research focuses on analyzing structured data, specifically biological interaction networks and spatial transcriptomics data.    
+I am broadly interested in developing statistical models and algorithms to address biological problems (sometimes also working in machine learning). My current research focuses on analyzing structured data, including biological interaction networks and spatial transcriptomics data.    
      
 [[Google Scholar]](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao)    
 [[CV]](chitra_cv_summer_2021.pdf)

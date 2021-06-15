@@ -15,8 +15,7 @@ Manuscript, 2019
 
 * [<span style="color:maroon">Quantifying and Reducing Bias in Maximum Likelihood Estimation of Structured Anomalies</span>](https://arxiv.org/abs/2007.07878)     
 **Uthsav Chitra**, Kimberly Ding, Jasper C. H. Lee, Benjamin J. Raphael  
-International Conference on Machine Learning (**ICML 2021**), to appear     
-_[arXiv not updated yet]_    
+International Conference on Machine Learning (**ICML 2021**)    
 
 * [<span style="color:maroon">NetMix: A network-structured mixture model for reducing bias in the identification of altered subnetworks.</span>](https://www.biorxiv.org/content/10.1101/2020.01.18.911438v1)    
 Matthew A. Reyna\*, **Uthsav Chitra\***, Rebecca Elyanow, Benjamin J. Raphael   
