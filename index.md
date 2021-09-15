@@ -14,8 +14,6 @@ layout: home
 .spaced-lines {line-height: 20pt;} 
 </style>
 
-## About
-
 ![right-aligned-image](headshot5.png){: .image-left width="315px"}
 <div markdown="1" class="spaced-lines">
 I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu) and to be supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship).    
