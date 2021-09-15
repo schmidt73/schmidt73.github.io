@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: home
 title: Teaching
 navigation_weight: 3
@@ -19,4 +19,4 @@ During my undergrad, I was a teaching assistant for the following courses at Bro
 
 * [CSCI 0530: Directions: The Matrix in Computer Science](http://cs.brown.edu/courses/cs053/current/index.htm), taught by Prof. Phil Klein (Fall 2014)      
 
-I also graded for MATH 1560 (number theory) and MATH 1530 (abstract algebra).
+I also graded for MATH 1560 (number theory) and MATH 1530 (abstract algebra). -->

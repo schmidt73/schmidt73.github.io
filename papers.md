@@ -1,15 +1,9 @@
----
+<!-- ---
 layout: home
 title: Papers
 navigation_weight: 2
 permalink: "papers.html"
 ---
-
-## Preprints
-
-* [<span style="color:maroon">Committee Selection is More Similar Than You Think: Evidence from Avalanche and Stellar</span>](https://arxiv.org/abs/1904.09839)     
-Tarun Chitra, Uthsav Chitra  
-Manuscript, 2019
 
 ## Papers
 
@@ -32,6 +26,11 @@ Preliminary version presented at KDD WISDOM 2019 workshop
 International Conference on Machine Learning (**ICML 2019**)    
 [[slides](https://icml.cc/media/Slides/icml/2019/101(13-11-00)-13-12-15-5196-random_walks_on.pdf), [ICML talk @ 55:27](https://slideslive.com/38917909/optimization-and-graphical-models)]
 
+## Manuscripts
+
+* [<span style="color:maroon">Committee Selection is More Similar Than You Think: Evidence from Avalanche and Stellar</span>](https://arxiv.org/abs/1904.09839)     
+Tarun Chitra, **Uthsav Chitra**  
+Manuscript, 2019
 
 
-\* denotes joint first authorship.     
+\* denotes joint first authorship.      -->
