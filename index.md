@@ -4,8 +4,6 @@ layout: home
 # navigation_weight: 1
 ---
 
-## About
-
 <style type="text/css">
 .image-left {
   display: block;
@@ -15,6 +13,8 @@ layout: home
 }
 .spaced-lines {line-height: 20pt;} 
 </style>
+
+## About
 
 ![right-aligned-image](headshot5.png){: .image-left width="315px"}
 <div markdown="1" class="spaced-lines">
