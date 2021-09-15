@@ -20,7 +20,7 @@ I am a PhD student in Computer Science at [Princeton University](https://www.cs.
 
 I am broadly interested in developing statistical models and algorithms to address biological problems. My current research focuses on analyzing structured data, including interaction networks and spatial transcriptomics.    
      
-[[Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao), [CV](cv_current.pdf), [Github](https://github.com/uthsavc)]
+[[Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao), [CV](cv_website.pdf), [Github](https://github.com/uthsavc)]
 
 <!-- Here is [my CV](chitra_cv_spring_2020.pdf) and [Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao). -->
 </div>
@@ -34,7 +34,7 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 [<span style="color:#c869bf">Quantifying and Reducing Bias in Maximum Likelihood Estimation of Structured Anomalies</span>](https://arxiv.org/abs/2007.07878)     
 **Uthsav Chitra**, Kimberly Ding, Jasper C. H. Lee, Benjamin J. Raphael  
-International Conference on Machine Learning (**ICML 2021**)    
+International Conference on Machine Learning (**ICML 2021**) [[slides](ICML_2021_pres.pdf), [ICML talk](https://slideslive.com/38958812/quantifying-and-reducing-bias-in-maximum-likelihood-estimation-of-structured-anomalies?ref=speaker-17429-latest)]    
 
 [<span style="color:#c869bf">NetMix: A network-structured mixture model for reducing bias in the identification of altered subnetworks.</span>](https://www.biorxiv.org/content/10.1101/2020.01.18.911438v1)    
 Matthew A. Reyna\*, **Uthsav Chitra\***, Rebecca Elyanow, Benjamin J. Raphael   
@@ -57,13 +57,13 @@ Manuscript, 2019
 
 ## Personal
 
-Outside of research, I spend a lot of my time (probably too much) bouldering --- check out my [<span style="color:#c869bf">climbing Instagram</span>](http://instagram.com/uthsav_climbs/) for some videos! 
+Outside of research, I spend a fair amount of time [<span style="color:maroon">bouldering</span>](bouldering_pic2.png) --- check out my [<span style="color:#c869bf">climbing Instagram</span>](http://instagram.com/uthsav_climbs/) for some videos! 
 
-I also enjoy biking around Princeton, attempting to solve [<span style="color:#c869bf">crosswords</span>](https://downforacross.com/), puzzles, and bad puns.
+I also enjoy biking around Princeton, struggling on [<span style="color:#c869bf">crosswords</span>](https://downforacross.com/), puzzles, and bad puns.
 
 <!-- ![left-aligned-image](bouldering_pic2.png){: .image-left width="500px"} -->
 
-<div style="text-align: center"><img src="bouldering_pic2.png" width="450" /></div>
+<!-- <div style="text-align: center"><img src="bouldering_pic2.png" width="450" /></div> -->
 
 <!-- <div style="text-align: center"><sup>Me struggling on Buddha (V6) in the Gunks</sup></div> -->
 
