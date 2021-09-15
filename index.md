@@ -46,7 +46,7 @@ ACM Conference on Web Search and Data Mining (**WSDM 2020**)
 Preliminary version presented at KDD WISDOM 2019 workshop [[slides](kdd_presentation.pdf)]    
 
 [<span style="color:#c869bf">Random Walks on Hypergraphs with Edge-Dependent Vertex Weights</span>](https://arxiv.org/abs/1905.08287)          
-**Uthsav Chitra**, Benjamin J Raphael  
+**Uthsav Chitra**, Benjamin J. Raphael  
 International Conference on Machine Learning (**ICML 2019**) [[slides](https://icml.cc/media/Slides/icml/2019/101(13-11-00)-13-12-15-5196-random_walks_on.pdf), [ICML talk @ 55:27](https://slideslive.com/38917909/optimization-and-graphical-models)]
 
 [<span style="color:#c869bf">Committee Selection is More Similar Than You Think: Evidence from Avalanche and Stellar</span>](https://arxiv.org/abs/1904.09839)     
