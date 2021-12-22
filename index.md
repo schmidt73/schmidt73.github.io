@@ -18,7 +18,7 @@ layout: home
 <div markdown="1" class="spaced-lines">
 I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu) and to be supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship).    
 
-I am broadly interested in developing statistical models and algorithms to address biological problems. My current research focuses on analyzing structured data, including interaction networks and spatial transcriptomics.    
+I am broadly interested in developing statistical models and algorithms to address problems in biology (occasionally machine learning too). My current research focuses on analyzing biological data with underlying graphical or spatial structure, including biological interaction networks and spatial transcriptomics.
      
 [[Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao), [CV](cv_website.pdf), [Github](https://github.com/uthsavc)]
 
@@ -26,11 +26,29 @@ I am broadly interested in developing statistical models and algorithms to addre
 </div>
 <!-- &nbsp; -->
 
----
+## Recent Updates
+
+- (December 2021) Two papers accepted to [RECOMB 2022](https://recomb2022.net/)! Preprints coming soon.
+- (May/July 2021) [Our work](https://arxiv.org/abs/2007.07878) on bias in structured anomaly estimation was accepted to ICML 2021! I [presented](https://slideslive.com/38958812/quantifying-and-reducing-bias-in-maximum-likelihood-estimation-of-structured-anomalies?ref=speaker-17429-latest) this work in July
+- (June 2020) I presented [NetMix](https://www.biorxiv.org/content/10.1101/2020.01.18.911438v1) at RECOMB 2020 ([slides](recomb2020_pres.pdf)).
+- (April 2020) I received an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship)!
+
+&nbsp;
+
+---    
+&nbsp;
 
 ## Papers
 
 <sup>\* denotes joint first authorship.</sup>     
+
+[<span style="color:maroon">Belayer: Modeling distinct cell type clusters and continuous variation of expression in spatial transcriptomics from layered tissues</span>](https://uthsavc.github.io/)     
+Cong Ma\*, **Uthsav Chitra\***, Shirley Zhang, Benjamin J. Raphael   
+International Conference on Research in Computational Molecular Biology (**RECOMB 2022**), to appear 
+
+[<span style="color:maroon">NetMix2: Unifying network propagation and altered subnetworks</span>](https://uthsavc.github.io/)     
+**Uthsav Chitra\***, Tae Yoon Park\*, Benjamin J. Raphael   
+International Conference on Research in Computational Molecular Biology (**RECOMB 2022**), to appear 
 
 [<span style="color:#c869bf">Quantifying and Reducing Bias in Maximum Likelihood Estimation of Structured Anomalies</span>](https://arxiv.org/abs/2007.07878)     
 **Uthsav Chitra**, Kimberly Ding, Jasper C. H. Lee, Benjamin J. Raphael  
@@ -53,7 +71,10 @@ International Conference on Machine Learning (**ICML 2019**) [[slides](https://i
 Tarun Chitra, **Uthsav Chitra**  
 Manuscript, 2019
 
----
+&nbsp;
+
+---    
+&nbsp;
 
 ## Personal
 
