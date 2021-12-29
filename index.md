@@ -18,7 +18,7 @@ layout: home
 <div markdown="1" class="spaced-lines">
 I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu) and to be supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship).    
 
-I am broadly interested in developing statistical models and algorithms to address problems in biology (occasionally machine learning too). My current research interests include spatial transcriptomics, biological network analysis, and genetic epistasis.
+I am broadly interested in developing statistical models and algorithms to address problems in biology (occasionally machine learning too). My current research interests include spatial transcriptomics, biological network analysis, and epistasis.
      
 [[Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao), [CV](cv_website.pdf), [Github](https://github.com/uthsavc)]
 
