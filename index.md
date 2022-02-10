@@ -28,8 +28,8 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 ## Recent Updates
 
-- (December 2021) Two papers accepted to [RECOMB 2022](https://recomb2022.net/)! Preprints coming soon.
-- (July 2021) [Our work](https://arxiv.org/abs/2007.07878) on bias in structured anomaly estimation was accepted to ICML 2021! Here is my [5 minute presentation](https://slideslive.com/38958812/quantifying-and-reducing-bias-in-maximum-likelihood-estimation-of-structured-anomalies?ref=speaker-17429-latest).
+- (December 2021) Two papers accepted to [RECOMB 2022](https://recomb2022.net/)! One on [network propagation](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1) and another on modeling [spatial transcriptomics](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1) data using complex analysis. Looking forward to San Diego!
+- (July 2021) [Our work](https://arxiv.org/abs/2007.07878) on bias in structured anomaly estimation was accepted to ICML 2021! Here was my [5 minute presentation](https://slideslive.com/38958812/quantifying-and-reducing-bias-in-maximum-likelihood-estimation-of-structured-anomalies?ref=speaker-17429-latest).
 
 ---    
 <!-- &nbsp; -->
@@ -38,11 +38,11 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 <sup>\* denotes joint first authorship.</sup>     
 
-[<span style="color:maroon">Belayer: Modeling distinct cell type clusters and continuous variation of expression in spatial transcriptomics from layered tissues</span>](https://uthsavc.github.io/)     
+[<span style="color:#c869bf">Belayer: Modeling distinct cell type clusters and continuous variation of expression in spatial transcriptomics from layered tissues</span>](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1)     
 Cong Ma\*, **Uthsav Chitra\***, Shirley Zhang, Benjamin J. Raphael   
 International Conference on Research in Computational Molecular Biology (**RECOMB 2022**), to appear 
 
-[<span style="color:maroon">NetMix2: Unifying network propagation and altered subnetworks</span>](https://uthsavc.github.io/)     
+[<span style="color:#c869bf">NetMix2: Unifying network propagation and altered subnetworks</span>](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1)     
 **Uthsav Chitra\***, Tae Yoon Park\*, Benjamin J. Raphael   
 International Conference on Research in Computational Molecular Biology (**RECOMB 2022**), to appear 
 
@@ -53,6 +53,7 @@ International Conference on Machine Learning (**ICML 2021**) [[slides](ICML_2021
 [<span style="color:#c869bf">NetMix: A network-structured mixture model for reducing bias in the identification of altered subnetworks.</span>](https://www.biorxiv.org/content/10.1101/2020.01.18.911438v1)    
 Matthew A. Reyna\*, **Uthsav Chitra\***, Rebecca Elyanow, Benjamin J. Raphael   
 International Conference on Research in Computational Molecular Biology (**RECOMB 2020**) [[slides](recomb2020_pres.pdf)]    
+Journal of Computational Biology (2021)
 
 [<span style="color:#c869bf">Analyzing the Impact of Filter Bubbles on Social Network Polarization</span>](https://arxiv.org/abs/1906.08772)    
 **Uthsav Chitra**, Christopher Musco    
