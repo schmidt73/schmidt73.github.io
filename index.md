@@ -38,7 +38,7 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 <sup>\* denotes joint first authorship.</sup>     
 
-[<span style="color:#c869bf">Belayer: Modeling distinct cell type clusters and continuous variation of expression in spatial transcriptomics from layered tissues</span>](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1)     
+[<span style="color:#c869bf">Belayer: Modeling discrete and continuous spatial variation in gene expression from spatially resolved transcriptomics</span>](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1)     
 Cong Ma\*, **Uthsav Chitra\***, Shirley Zhang, Benjamin J. Raphael   
 International Conference on Research in Computational Molecular Biology (**RECOMB 2022**), to appear 
 
