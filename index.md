@@ -16,9 +16,9 @@ layout: home
 
 ![right-aligned-image](headshot5.png){: .image-left width="315px"}
 <div markdown="1" class="spaced-lines">
-I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu) and to be supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship).    
+I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu) and supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship).    
 
-I am broadly interested in developing statistical models and algorithms to address problems in biology (occasionally machine learning too). My current research interests include spatial transcriptomics, biological network analysis, and epistasis.
+I am broadly interested in developing statistical models and algorithms to address problems in biology and machine learning, with a particular interest in problems involving physical or statistical interactions.
      
 [[Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao), [CV](cv_website.pdf), [Github](https://github.com/uthsavc)]
 
@@ -28,8 +28,12 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 ## Recent Updates
 
-- (December 2021) Two papers accepted to [RECOMB 2022](https://recomb2022.net/)! One on [network propagation](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1) and another on modeling [spatial transcriptomics](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1) data using complex analysis. Looking forward to San Diego!
-- (July 2021) [Our work](https://arxiv.org/abs/2007.07878) on bias in structured anomaly estimation was accepted to ICML 2021! Here was my [5 minute presentation](https://slideslive.com/38958812/quantifying-and-reducing-bias-in-maximum-likelihood-estimation-of-structured-anomalies?ref=speaker-17429-latest).
+- (June 2022) Presented some work on [hypergraphs](https://arxiv.org/abs/1905.08287) at the 2022 SIAM Conference on Discrete Mathematics in Pittsburgh. Also received an ICML 2022 [Best Reviewer Award](https://icml.cc/Conferences/2022/Reviewers).
+
+- (May 2022) Presented our algorithm [NetMix2](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1)  at RECOMB 2022 in San Diego.
+
+- (December 2021) Two papers accepted to [RECOMB 2022](https://recomb2022.net/): one on [network propagation](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1) and another on modeling [spatial transcriptomics](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1) data using complex analysis. Looking forward to San Diego!
+
 
 ---    
 <!-- &nbsp; -->
@@ -40,11 +44,11 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 [<span style="color:#c869bf">Belayer: Modeling discrete and continuous spatial variation in gene expression from spatially resolved transcriptomics</span>](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1)     
 Cong Ma\*, **Uthsav Chitra\***, Shirley Zhang, Benjamin J. Raphael   
-International Conference on Research in Computational Molecular Biology (**RECOMB 2022**), to appear 
+International Conference on Research in Computational Molecular Biology (**RECOMB 2022**)
 
 [<span style="color:#c869bf">NetMix2: Unifying network propagation and altered subnetworks</span>](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1)     
 **Uthsav Chitra\***, Tae Yoon Park\*, Benjamin J. Raphael   
-International Conference on Research in Computational Molecular Biology (**RECOMB 2022**), to appear 
+International Conference on Research in Computational Molecular Biology (**RECOMB 2022**) [[slides](netmix2_recomb2022_pres.pdf)]
 
 [<span style="color:#c869bf">Quantifying and Reducing Bias in Maximum Likelihood Estimation of Structured Anomalies</span>](https://arxiv.org/abs/2007.07878)     
 **Uthsav Chitra**, Kimberly Ding, Jasper C. H. Lee, Benjamin J. Raphael  
@@ -75,7 +79,7 @@ Manuscript, 2019
 
 ## Personal
 
-Outside of research, I spend a fair amount of time [<span style="color:maroon">bouldering</span>](bouldering_pic2.png) --- check out my [<span style="color:#c869bf">climbing Instagram</span>](http://instagram.com/uthsav_climbs/) for some videos! 
+Outside of research, I spend a fair amount of time [<span style="color:maroon">bouldering</span>](bouldering_pic.png) --- check out my [<span style="color:#c869bf">Instagram</span>](http://instagram.com/uthsav_climbs/) for some videos! 
 
 I also enjoy biking around Princeton, struggling on [<span style="color:#c869bf">crosswords</span>](https://downforacross.com/), puzzles, and bad puns.
 
