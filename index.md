@@ -28,7 +28,7 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 ## Recent Updates
 
-- (June 2022) Presented some work on [hypergraphs](https://arxiv.org/abs/1905.08287) at the 2022 SIAM Conference on Discrete Mathematics in Pittsburgh. Also received an ICML 2022 [Best Reviewer Award](https://icml.cc/Conferences/2022/Reviewers).
+- (June 2022) Presented some work on [hypergraphs](https://arxiv.org/abs/1905.08287) at the [SIAM Conference on Discrete Mathematics](https://www.siam.org/conferences/cm/conference/dm22) (DM22) in Pittsburgh. Also received an ICML 2022 [Best Reviewer Award](https://icml.cc/Conferences/2022/Reviewers).
 
 - (May 2022) Presented our algorithm [NetMix2](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1)  at RECOMB 2022 in San Diego.
 
