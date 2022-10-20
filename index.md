@@ -16,7 +16,7 @@ layout: home
 
 ![right-aligned-image](headshot5.png){: .image-left width="315px"}
 <div markdown="1" class="spaced-lines">
-I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu) and supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship).    
+I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu) and supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship) and [Siebel Scholar award](https://www.cs.princeton.edu/news/graduate-students-receive-siebel-scholar-awards).    
 
 I am broadly interested in developing statistical models and algorithms to address problems in biology and machine learning, with a particular interest in problems involving physical or statistical interactions.
      
@@ -28,12 +28,16 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 ## Recent Updates
 
+- (October 2022) Our spatial transcriptomics algorithm Belayer is out now (and is the "featured article") in[Cell Systems](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00354-4)!
+
+- (September 2022) Received a [Siebel Scholar award](https://www.cs.princeton.edu/news/graduate-students-receive-siebel-scholar-awards).
+
 - (June 2022) Presented at the [SIAM Conference on Discrete Mathematics](https://www.siam.org/conferences/cm/conference/dm22) (DM22) in Pittsburgh. Also received an ICML 2022 [Best Reviewer Award](https://icml.cc/Conferences/2022/Reviewers).
 
 - (May 2022) Presented our algorithm [NetMix2](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1)  at RECOMB 2022 in San Diego.
 
-- (December 2021) Two papers accepted to [RECOMB 2022](https://recomb2022.net/): one on [network propagation](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1) and another on modeling [spatial transcriptomics](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1) data using complex analysis. Looking forward to San Diego!
-
+<!-- - (December 2021) Two papers accepted to [RECOMB 2022](https://recomb2022.net/): one on [network propagation](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1) and another on modeling [spatial transcriptomics](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1) data using complex analysis. Looking forward to San Diego!
+ -->
 
 ---    
 <!-- &nbsp; -->
