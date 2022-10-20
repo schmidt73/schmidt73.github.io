@@ -16,7 +16,7 @@ layout: home
 
 ![right-aligned-image](headshot5.png){: .image-left width="315px"}
 <div markdown="1" class="spaced-lines">
-I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu) and supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship) and [Siebel Scholar award](https://www.cs.princeton.edu/news/graduate-students-receive-siebel-scholar-awards).    
+I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu), and I am grateful to be supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship) and a [Siebel Scholar award](https://www.cs.princeton.edu/news/graduate-students-receive-siebel-scholar-awards).    
 
 I am broadly interested in developing statistical models and algorithms to address problems in biology and machine learning, with a particular interest in problems involving physical or statistical interactions.
      
@@ -28,7 +28,7 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 ## Recent Updates
 
-- (October 2022) Our spatial transcriptomics algorithm Belayer is out now (and is the "featured article") in[Cell Systems](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00354-4)!
+- (October 2022) Our spatial transcriptomics algorithm Belayer is out now (and is the issue's "featured article") in [Cell Systems](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00354-4)!
 
 - (September 2022) Received a [Siebel Scholar award](https://www.cs.princeton.edu/news/graduate-students-receive-siebel-scholar-awards).
 
