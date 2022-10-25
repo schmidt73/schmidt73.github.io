@@ -18,7 +18,7 @@ layout: home
 <div markdown="1" class="spaced-lines">
 I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu), and I am grateful to be supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship) and a [Siebel Scholar award](https://www.cs.princeton.edu/news/graduate-students-receive-siebel-scholar-awards).    
 
-I am broadly interested in developing statistical models and algorithms to address problems in biology and machine learning, with a particular interest in problems involving physical or statistical interactions.
+I am broadly interested in developing statistical models and algorithms to address problems in biology and machine learning. I am particularly interested in problems involving graphs or spatial structure.    
      
 [[Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao), [CV](cv_website.pdf), [Github](https://github.com/uthsavc)]
 
@@ -48,6 +48,7 @@ I am broadly interested in developing statistical models and algorithms to addre
 
 [<span style="color:#c869bf">Belayer: Modeling discrete and continuous spatial variation in gene expression from spatially resolved transcriptomics</span>](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1)     
 Cong Ma\*, **Uthsav Chitra\***, Shirley Zhang, Benjamin J. Raphael   
+Cell Systems (2022)      
 International Conference on Research in Computational Molecular Biology (**RECOMB 2022**)
 
 [<span style="color:#c869bf">NetMix2: Unifying network propagation and altered subnetworks</span>](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1)     
@@ -60,8 +61,9 @@ International Conference on Machine Learning (**ICML 2021**) [[slides](ICML_2021
 
 [<span style="color:#c869bf">NetMix: A network-structured mixture model for reducing bias in the identification of altered subnetworks.</span>](https://www.biorxiv.org/content/10.1101/2020.01.18.911438v1)    
 Matthew A. Reyna\*, **Uthsav Chitra\***, Rebecca Elyanow, Benjamin J. Raphael   
+Journal of Computational Biology (2021)    
 International Conference on Research in Computational Molecular Biology (**RECOMB 2020**) [[slides](recomb2020_pres.pdf)]    
-Journal of Computational Biology (2021)
+
 
 [<span style="color:#c869bf">Analyzing the Impact of Filter Bubbles on Social Network Polarization</span>](https://arxiv.org/abs/1906.08772)    
 **Uthsav Chitra**, Christopher Musco    
@@ -85,14 +87,4 @@ Manuscript, 2019
 
 Outside of research, I spend a fair amount of time [<span style="color:maroon">bouldering</span>](bouldering_pic.png) --- check out my [<span style="color:#c869bf">Instagram</span>](http://instagram.com/uthsav_climbs/) for some videos! 
 
-I also enjoy biking around Princeton, struggling on [<span style="color:#c869bf">crosswords</span>](https://downforacross.com/), puzzles, and bad puns.
-
-<!-- ![left-aligned-image](bouldering_pic2.png){: .image-left width="500px"} -->
-
-<!-- <div style="text-align: center"><img src="bouldering_pic2.png" width="450" /></div> -->
-
-<!-- <div style="text-align: center"><sup>Me struggling on Buddha (V6) in the Gunks</sup></div> -->
-
-
-
-<!-- <sup>(Site updated Sep 14, 2021.)</sup>    -->
+I also enjoy biking around Princeton, struggling on crosswords, puzzles, and bad puns.
