@@ -14,77 +14,82 @@ layout: home
 .spaced-lines {line-height: 20pt;} 
 </style>
 
-![right-aligned-image](headshot5.png){: .image-left width="315px"}
-<div markdown="1" class="spaced-lines">
-I am a PhD student in Computer Science at [Princeton University](https://www.cs.princeton.edu). I am very fortunate to be advised by [Ben Raphael](http://compbio.cs.brown.edu), and I am grateful to be supported by an [NSF Graduate Research Fellowship](https://www.cs.princeton.edu/news/computer-science-phd-students-awarded-nsf-graduate-research-fellowship) and a [Siebel Scholar award](https://www.cs.princeton.edu/news/graduate-students-receive-siebel-scholar-awards).    
+<div class="image-icon-wrapper">
+    <img src="images/headshot.jpg" alt="headshot" class="image-left" width="240px" style="border: 5px solid black;">
 
-I am broadly interested in developing statistical models and algorithms to address problems in biology and machine learning. I am particularly interested in problems involving graphs or spatial structure.    
-     
-[[Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao), [CV](cv_website.pdf), [Github](https://github.com/uthsavc)]
-
-<!-- Here is [my CV](chitra_cv_spring_2020.pdf) and [Google Scholar](https://scholar.google.com/citations?user=JPKTNnMAAAAJ&hl=en&oi=ao). -->
+    <div class="icon-container">
+        <a href="https://github.com/schmidt73" target="_blank">
+            <i class="fab fa-github-square fa-3x"></i>
+        </a>
+        <a href="https://scholar.google.com/citations?user=tovcdNcAAAAJ" target="_blank">
+            <i class="ai ai-google-scholar ai-3x"></i>
+        </a>
+        <a href="https://orcid.org/0000-0002-0132-3472" target="_blank">
+            <i class="ai ai-orcid ai-3x"></i>
+        </a>
+        <a href="mailto:henri.schmidt@princeton.edu" target="_blank">
+            <i class="fa-solid fa-envelope fa-3x"></i>
+        </a>
+    </div>
 </div>
-<!-- &nbsp; -->
+
+<div markdown="1" class="spaced-lines">
+
+I am a PhD candidate in Computer Science at [Princeton
+University](https://www.cs.princeton.edu). I am very fortunate to be advised by
+[Ben Raphael](http://compbio.cs.brown.edu). Prior to working with
+Ben Raphael, I completed a Bachelor of Science in Math and Computer Science
+at [Tufts University](https://www.tufts.edu/), where I worked with 
+[Lenore Cowen](https://www.cs.tufts.edu/~cowen/) on protein-to-protein interaction
+graphs.
+
+I am broadly interested in employing techniques from theoretical computer science
+to study algorithmic problems in computational biology. Currently, I am *i)* working
+on computational complexity results for a class of [homoplasy bounded](https://en.wikipedia.org/wiki/Homoplasy) 
+evolutionary models and *ii)* designing a fast algorithm for the 
+[clone tree regression problem](https://academic.oup.com/bioinformatics/article/31/12/i62/216528).
 
 ## Recent Updates
 
-- (October 2022) Our spatial transcriptomics algorithm Belayer is out now (and is the issue's "featured article") in [Cell Systems](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00354-4)!
+- (May 2023) Presented my work on the *zero agnostic copy number transformation (ZCNT)* model at the [Banff International Research Station for
+Mathematical Innovation and Discovery](https://www.birs.ca/events/2023/5-day-workshops/23w5084/schedule).
 
-- (September 2022) Received a [Siebel Scholar award](https://www.cs.princeton.edu/news/graduate-students-receive-siebel-scholar-awards).
+- (April 2023) Presented my work on *Startle* and *ZCNT* at [RECOMB-2023](http://recomb2023.bilkent.edu.tr/index.html) and 
+the [RECOMB-2023](https://sites.google.com/view/recomb-ccb2023) satellite for computational cancer biology.
 
-- (June 2022) Presented at the [SIAM Conference on Discrete Mathematics](https://www.siam.org/conferences/cm/conference/dm22) (DM22) in Pittsburgh. Also received an ICML 2022 [Best Reviewer Award](https://icml.cc/Conferences/2022/Reviewers).
+- (March 2023) Received an Honorable Mention in the [NSF GRFP](https://www.research.gov/grfp/Login.do) fellowship competition. 
 
-- (May 2022) Presented our algorithm [NetMix2](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1)  at RECOMB 2022 in San Diego.
-
-<!-- - (December 2021) Two papers accepted to [RECOMB 2022](https://recomb2022.net/): one on [network propagation](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1) and another on modeling [spatial transcriptomics](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1) data using complex analysis. Looking forward to San Diego!
- -->
-
----    
-<!-- &nbsp; -->
-
-## Papers
-
+## Conference Publications
 <sup>\* denotes joint first authorship.</sup>     
 
-[<span style="color:#c869bf">Belayer: Modeling discrete and continuous spatial variation in gene expression from spatially resolved transcriptomics</span>](https://www.biorxiv.org/content/10.1101/2022.02.05.479261v1)     
-Cong Ma\*, **Uthsav Chitra\***, Shirley Zhang, Benjamin J. Raphael   
-Cell Systems (2022)      
-International Conference on Research in Computational Molecular Biology (**RECOMB 2022**)
+[<span style="color:#c869bf">A zero agnostic model for copy number evolution in cancer</span>](https://www.biorxiv.org/content/10.1101/2023.04.10.536302v1)     
+**Henri Schmidt**, Palash Sashittal, Benjamin J. Raphael     
+RECOMB Satellite Workshop on Computational Cancer Biology, RECOMB-CCB 2023 [[slides](slides/zcnt.pdf)].   
+***Best Paper Award***
 
-[<span style="color:#c869bf">NetMix2: Unifying network propagation and altered subnetworks</span>](https://www.biorxiv.org/content/10.1101/2022.01.31.478575v1)     
-**Uthsav Chitra\***, Tae Yoon Park\*, Benjamin J. Raphael   
-International Conference on Research in Computational Molecular Biology (**RECOMB 2022**) [[slides](netmix2_recomb2022_pres.pdf)]
+[<span style="color:#c869bf"><i>Startle</i>: A star homoplasy approach for CRISPR-Cas9 Lineage Tracing</span>](https://www.biorxiv.org/content/10.1101/2022.12.18.520935v1.abstract)     
+**Henri Schmidt\***, Palash Sashittal\*, Michelle Chan, Benjamin J. Raphael     
+International Conference on Research in Computational Molecular Biology, RECOMB 2023 [[slides](slides/startle.pdf)].
 
-[<span style="color:#c869bf">Quantifying and Reducing Bias in Maximum Likelihood Estimation of Structured Anomalies</span>](https://arxiv.org/abs/2007.07878)     
-**Uthsav Chitra**, Kimberly Ding, Jasper C. H. Lee, Benjamin J. Raphael  
-International Conference on Machine Learning (**ICML 2021**) [[slides](ICML_2021_pres.pdf), [ICML talk](https://slideslive.com/38958812/quantifying-and-reducing-bias-in-maximum-likelihood-estimation-of-structured-anomalies?ref=speaker-17429-latest)]    
+## Journal Publications
 
-[<span style="color:#c869bf">NetMix: A network-structured mixture model for reducing bias in the identification of altered subnetworks.</span>](https://www.biorxiv.org/content/10.1101/2020.01.18.911438v1)    
-Matthew A. Reyna\*, **Uthsav Chitra\***, Rebecca Elyanow, Benjamin J. Raphael   
-Journal of Computational Biology (2021)    
-International Conference on Research in Computational Molecular Biology (**RECOMB 2020**) [[slides](recomb2020_pres.pdf)]    
+[<span style="color:#c869bf">GLIDER: function prediction from GLIDE-based neighborhoods</span>](https://academic.oup.com/bioinformatics/article/38/13/3395/6586285)     
+Kapil Devkota, **Henri Schmidt**, Matt Werenski, James M Murphy, Mert Erden, Victor Arsenescu, Lenore J Cowen  
+*Bioinformatics,* Volume 38, Issue 13, July 2022, Pages 3395-3406.
 
 
-[<span style="color:#c869bf">Analyzing the Impact of Filter Bubbles on Social Network Polarization</span>](https://arxiv.org/abs/1906.08772)    
-**Uthsav Chitra**, Christopher Musco    
-ACM Conference on Web Search and Data Mining (**WSDM 2020**)    
-Preliminary version presented at KDD WISDOM 2019 workshop [[slides](kdd_presentation.pdf)]    
+[<span style="color:#c869bf">Base editing sensor libraries for high-throughput engineering and functional analysis of cancer-associated single nucleotide variants</span>](https://www.nature.com/articles/s41587-021-01172-3)     
+Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmidt**, ..., Scott W. Lowe, Lukas Dow.  
+*Nature biotechnology,* Volume 40, Issue 6, June 2022, Pages 862-873.
 
-[<span style="color:#c869bf">Random Walks on Hypergraphs with Edge-Dependent Vertex Weights</span>](https://arxiv.org/abs/1905.08287)          
-**Uthsav Chitra**, Benjamin J. Raphael  
-International Conference on Machine Learning (**ICML 2019**) [[slides](https://icml.cc/media/Slides/icml/2019/101(13-11-00)-13-12-15-5196-random_walks_on.pdf), [ICML talk @ 55:27](https://slideslive.com/38917909/optimization-and-graphical-models)]
+## Preprints
 
-[<span style="color:#c869bf">Committee Selection is More Similar Than You Think: Evidence from Avalanche and Stellar</span>](https://arxiv.org/abs/1904.09839)     
-Tarun Chitra, **Uthsav Chitra**  
-Manuscript, 2019
+[<span style="color:#c869bf">Multi-center integrated analysis of non-coding CRISPR screens</span>](https://www.biorxiv.org/content/10.1101/2022.12.21.520137.abstract)     
+David Yao, Josh Tycko, ..., **Henri Schmidt**, ..., Michael C. Bassik, Steven K. Reilly   
+*bioRxiv,* December 22nd, 2022.
+
+[<span style="color:#c869bf">Genome-wide CRISPR guide RNA design and specificity analysis with GuideScan2</span>](https://www.biorxiv.org/content/10.1101/2022.05.02.490368v1.abstract)     
+**Henri Schmidt**, Minsi Zhang, Haralambos Mourelatos, Francisco J. Sánchez-Rivera, Scott W. Lowe, Andrea Ventura, Christina S. Leslie, Yuri Pritykin   
+*bioRxiv,* May 3rd, 2022.
 
 &nbsp;
-
----    
-&nbsp;
-
-## Personal
-
-Outside of research, I spend a fair amount of time [<span style="color:maroon">bouldering</span>](bouldering_pic.png) --- check out my [<span style="color:#c869bf">Instagram</span>](http://instagram.com/uthsav_climbs/) for some videos! 
-
-I also enjoy biking around Princeton, struggling on crosswords, puzzles, and bad puns.

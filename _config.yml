@@ -13,34 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Uthsav Chitra
-email: uchitra [at] [school] [dot] edu
+title: Henri Schmidt
+email: henri [dot] schmidt [at] princeton [dot] edu
 description: Computer Science PhD student at Princeton University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: uthsavc
-github_username:  uthsavc
-# linkedin_username:  uthsav-chitra-12aba183
+twitter_username: henrismitch
+github_username:  schmidt73
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
-# a way have multiple content sections in a page??
-# see https://dev-notes.eu/2016/08/page-sections-in-jekyll-seperating-content-from-layout/
-# collections:
-#   - sections
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
