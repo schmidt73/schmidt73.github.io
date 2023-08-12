@@ -1,3 +1,3 @@
-# uthsavc.github.io
+# henricschmidt.com
 
-Uthsav Chitra's academic website. Run `bundle exec jekyll serve` to build the site locally.
+Henri Schmidt's academic website. Run `bundle exec jekyll serve` to build the site locally.
