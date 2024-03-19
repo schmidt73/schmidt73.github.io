@@ -54,6 +54,7 @@ coloring](https://www.sciencedirect.com/science/article/pii/S0022000007001468) p
 <h2 style="margin-top:0px;"><i>Recent Updates</i></h2>
 
 <ul>
+<li>(March 2024) The fastBE paper was accepted at RECOMB-CCB 2024 and invited for journal publication.</li>
 <li>(August 2023) The ZCNT paper was published in <a href="https://doi.org/10.1371/journal.pcbi.1011590">PLOS Computational Biology</a>.</li>
 <li>(May 2023) Presented my work on the <i>zero agnostic copy number transformation (ZCNT)</i> model at the 
 <a href="https://www.birs.ca/events/2023/5-day-workshops/23w5084/schedule">Banff International Research Station for
@@ -63,8 +64,12 @@ the <a href="https://sites.google.com/view/recomb-ccb2023">RECOMB-2023</a> satel
 <li>(March 2023) Received an Honorable Mention in the <a href="https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList">NSF GRFP</a> fellowship competition.</li>
 </ul>
 
-<h2 style="margin-top:20px;"><i>Conference Publications</i></h2>
+<h2 style="margin-top:20px;"><i>Conference Presentations</i></h2>
 <p style="margin-top:-15px;">* denotes joint first authorship.</p>
+[<span style="color:#c869bf">A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors</span>](404)   
+**Henri Schmidt**, Benjamin J. Raphael<br/>
+*(Future)* RECOMB Satellite Workshop on Computational Cancer Biology, RECOMB-CCB 2024.
+
 [<span style="color:#c869bf">A zero agnostic model for copy number evolution in cancer</span>](https://www.biorxiv.org/content/10.1101/2023.04.10.536302v1)     
 **Henri Schmidt**, Palash Sashittal, Benjamin J. Raphael     
 RECOMB Satellite Workshop on Computational Cancer Biology, RECOMB-CCB 2023 [[slides](slides/zcnt.pdf)].   
@@ -75,6 +80,14 @@ RECOMB Satellite Workshop on Computational Cancer Biology, RECOMB-CCB 2023 [[sli
 International Conference on Research in Computational Molecular Biology, RECOMB 2023 [[slides](slides/startle.pdf)].
 
 <h2 style="margin-top:0px;"><i>Journal Publications</i></h2>
+
+[<span style="color:#c869bf">Multi-center integrated analysis of non-coding CRISPR screens</span>](https://www.nature.com/articles/s41592-024-02216-7)     
+David Yao, Josh Tycko, ..., **Henri Schmidt**, ..., Michael C. Bassik, Steven K. Reilly   
+*Nature Methods,* February 2024.
+
+[<span style="color:#c869bf"><i>Startle</i>: A star homoplasy approach for CRISPR-Cas9 Lineage Tracing</span>](https://www.biorxiv.org/content/10.1101/2022.12.18.520935v1.abstract)     
+**Henri Schmidt\***, Palash Sashittal\*, Michelle Chan, Benjamin J. Raphael     
+*Cell Systems,* Volume 14, Issue 12, December 2023, Pages 1113-1121.
 
 [<span style="color:#c869bf">A zero agnostic model for copy number evolution in cancer</span>](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011590)     
 **Henri Schmidt**, Palash Sashittal, Benjamin J. Raphael<br>
@@ -89,11 +102,6 @@ Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmid
 *Nature biotechnology,* Volume 40, Issue 6, June 2022, Pages 862-873.
 
 ## Preprints
-
-[<span style="color:#c869bf">Multi-center integrated analysis of non-coding CRISPR screens</span>](https://www.biorxiv.org/content/10.1101/2022.12.21.520137.abstract)     
-David Yao, Josh Tycko, ..., **Henri Schmidt**, ..., Michael C. Bassik, Steven K. Reilly   
-*bioRxiv,* December 22nd, 2022.
-
 [<span style="color:#c869bf">Genome-wide CRISPR guide RNA design and specificity analysis with GuideScan2</span>](https://www.biorxiv.org/content/10.1101/2022.05.02.490368v1.abstract)     
 **Henri Schmidt**, Minsi Zhang, Haralambos Mourelatos, Francisco J. Sánchez-Rivera, Scott W. Lowe, Andrea Ventura, Christina S. Leslie, Yuri Pritykin   
 *bioRxiv,* May 3rd, 2022.
