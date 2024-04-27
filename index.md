@@ -66,9 +66,9 @@ the <a href="https://sites.google.com/view/recomb-ccb2023">RECOMB-2023</a> satel
 
 <h2 style="margin-top:20px;"><i>Conference Presentations</i></h2>
 <p style="margin-top:-15px;">* denotes joint first authorship.</p>
-[<span style="color:#c869bf">A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors</span>](404)   
+[<span style="color:#c869bf">A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors</span>](https://www.biorxiv.org/content/10.1101/2024.04.23.590844v1)   
 **Henri Schmidt**, Benjamin J. Raphael<br/>
-*(Future)* RECOMB Satellite Workshop on Computational Cancer Biology, RECOMB-CCB 2024.
+*(Future)* RECOMB Satellite Workshop on Computational Cancer Biology, RECOMB-CCB 2024 [[slides](slides/fastbe.pdf)].
 
 [<span style="color:#c869bf">A zero agnostic model for copy number evolution in cancer</span>](https://www.biorxiv.org/content/10.1101/2023.04.10.536302v1)     
 **Henri Schmidt**, Palash Sashittal, Benjamin J. Raphael     
