@@ -3,15 +3,21 @@
 
 @import "minima";
 
+p {
+  line-height: 1.6;
+}
+body {
+    font-size: 14px;
+}
 .wrapper {
-    max-width: calc(950px - (30px * 2));  /* Change this to your desired width */
+    max-width: calc(1000px - (30px * 2));  /* Change this to your desired width */
     margin: 0 auto;    /* This centers the content */
 }
 
 .image-icon-wrapper {
     float: right;
     margin-left: 40px;
-    width: 250px; /* The same width as your image */
+    width: 200px; /* The same width as your image */
     text-align: center; /* This will center the icons */
 }
 

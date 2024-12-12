@@ -18,17 +18,20 @@ layout: home
     <img src="images/headshot.jpg" alt="headshot" class="image-left" width="240px" style="border: 5px solid black;">
 
     <div class="icon-container">
-        <a href="https://github.com/schmidt73" target="_blank">
-            <i class="fab fa-github-square fa-3x"></i>
-        </a>
         <a href="https://scholar.google.com/citations?user=tovcdNcAAAAJ" target="_blank">
-            <i class="ai ai-google-scholar ai-3x"></i>
+            <i class="ai ai-google-scholar ai-2x"></i>
         </a>
         <a href="https://orcid.org/0000-0002-0132-3472" target="_blank">
-            <i class="ai ai-orcid ai-3x"></i>
+            <i class="ai ai-orcid ai-2x"></i>
         </a>
         <a href="mailto:henri.schmidt@princeton.edu" target="_blank">
-            <i class="fa-solid fa-envelope fa-3x"></i>
+            <i class="fa-solid fa-envelope fa-2x"></i>
+        </a>
+        <a href="https://github.com/schmidt73" target="_blank">
+            <i class="fab fa-github-square fa-2x"></i>
+        </a>
+        <a href="https://x.com/henrismitch" target="_blank">
+            <i class="fab fa-twitter-square fa-2x"></i>
         </a>
     </div>
 </div>
@@ -40,70 +43,65 @@ University](https://www.cs.princeton.edu). I am very fortunate to be advised by
 [Ben Raphael](https://www.cs.princeton.edu/people/profile/braphael). Prior to working with
 Ben Raphael, I completed a Bachelor of Science in Math and Computer Science
 at [Tufts University](https://www.tufts.edu/), where I worked with 
-[Lenore Cowen](https://www.cs.tufts.edu/~cowen/) on protein-to-protein interaction
-graphs.
+[Lenore Cowen](https://www.cs.tufts.edu/~cowen/) designing algorithms for 
+protein-to-protein interaction networks.
 
-I am broadly interested in employing techniques from theoretical computer science
-to study algorithmic problems in computational biology. More specifically, I study
-combinatorial optimization problems that arise in computational phylogenetics.
-Currently, I am working on *i)* designing fast algorithms 
-for the [clone tree regression problem](https://academic.oup.com/bioinformatics/article/31/12/i62/216528)
-and *ii)* applying the theory of network flows to solve constrained [tree
-coloring](https://www.sciencedirect.com/science/article/pii/S0022000007001468) problems.
+Currently, my research employs techniques from theoretical computer science
+and operations research to study problems in computational biology. Specifically, I 
+apply these techniques to study phylogenetic optimization problems that arise in 
+cancer evolution and lineage tracing. As an example,
+my recent work [fastBE](https://doi.org/10.1371/journal.pcbi.1012631) develops 
+specialized algorithms to enable large-scale phylogenetic reconstruction 
+from multi-sample bulk DNA sequencing of tumors using primal-dual methods for
+solving linear programs.
 
 <h2 style="margin-top:0px;"><i>Recent Updates</i></h2>
 
 <ul>
-<li>(March 2024) The fastBE paper was accepted at RECOMB-CCB 2024 and invited for journal publication.</li>
-<li>(August 2023) The ZCNT paper was published in <a href="https://doi.org/10.1371/journal.pcbi.1011590">PLOS Computational Biology</a>.</li>
+<li>(December 2024) The fastBE manuscript was published in <a href="https://doi.org/10.1371/journal.pcbi.1012631"> PLoS Computational Biology</a>.</li> 
+<li>(September 2024) Attended the ICERM workshop regarding <a href="https://icerm.brown.edu/program/semester_program_workshop/sp-f24-w1#workshopparticipants">Current Methods and Open Problems in Mathematical and Statistical Phylogenetics</a>.</li>
+<li>(April 2024) The fastBE paper was presented at RECOMB-CCB.</li>
+<li>(August 2023) The ZCNT paper was published in <a href="https://doi.org/10.1371/journal.pcbi.1011590">PLoS Computational Biology</a>.</li>
 <li>(May 2023) Presented my work on the <i>zero agnostic copy number transformation (ZCNT)</i> model at the 
 <a href="https://www.birs.ca/events/2023/5-day-workshops/23w5084/schedule">Banff International Research Station for
 Mathematical Innovation and Discovery</a>.</li>
-<li>(April 2023) Presented my work on <i>Startle</i> and <i>ZCNT</i> at <a href="http://recomb2023.bilkent.edu.tr/index.html">RECOMB-2023</a> and 
-the <a href="https://sites.google.com/view/recomb-ccb2023">RECOMB-2023</a> satellite for computational cancer biology.</li>
-<li>(March 2023) Received an Honorable Mention in the <a href="https://www.research.gov/grfp/AwardeeList.do?method=loadAwardeeList">NSF GRFP</a> fellowship competition.</li>
 </ul>
 
-<h2 style="margin-top:20px;"><i>Conference Presentations</i></h2>
-<p style="margin-top:-15px;">* denotes joint first authorship.</p>
-[<span style="color:#c869bf">A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors</span>](https://www.biorxiv.org/content/10.1101/2024.04.23.590844v1)   
-**Henri Schmidt**, Benjamin J. Raphael<br/>
-RECOMB Satellite Workshop on Computational Cancer Biology, RECOMB-CCB 2024 [[slides](slides/fastbe.pdf)].
-
-[<span style="color:#c869bf">A zero agnostic model for copy number evolution in cancer</span>](https://www.biorxiv.org/content/10.1101/2023.04.10.536302v1)     
-**Henri Schmidt**, Palash Sashittal, Benjamin J. Raphael     
-RECOMB Satellite Workshop on Computational Cancer Biology, RECOMB-CCB 2023 [[slides](slides/zcnt.pdf)].   
-***Best Paper Award***
-
-[<span style="color:#c869bf"><i>Startle</i>: A star homoplasy approach for CRISPR-Cas9 Lineage Tracing</span>](https://www.biorxiv.org/content/10.1101/2022.12.18.520935v1.abstract)     
-**Henri Schmidt\***, Palash Sashittal\*, Michelle Chan, Benjamin J. Raphael     
-International Conference on Research in Computational Molecular Biology, RECOMB 2023 [[slides](slides/startle.pdf)].
-
 <h2 style="margin-top:0px;"><i>Journal Publications</i></h2>
+<p style="margin-top:-15px;">* denotes joint first authorship; author order is rearranged with permission from co-authors. </p>
+
+[<span style="color:#c869bf">A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors</span>](https://doi.org/10.1371/journal.pcbi.1012631)     
+**Henri Schmidt**, Benjamin J. Raphael<br>
+*PLoS Computational Biology,* Volume 20, Issue 12, December 2024. [[slides](slides/fastbe.pdf)]
 
 [<span style="color:#c869bf">Multi-center integrated analysis of non-coding CRISPR screens</span>](https://www.nature.com/articles/s41592-024-02216-7)     
-David Yao, Josh Tycko, ..., **Henri Schmidt**, ..., Michael C. Bassik, Steven K. Reilly   
-*Nature Methods,* February 2024.
+David Yao, Josh Tycko, ..., **Henri Schmidt**, ..., Michael C. Bassik, Steven K. Reilly<br>
+*Nature Methods,* Volume 21, Issue 4, Pages 723-734, February 2024.
 
-[<span style="color:#c869bf"><i>Startle</i>: A star homoplasy approach for CRISPR-Cas9 Lineage Tracing</span>](https://www.biorxiv.org/content/10.1101/2022.12.18.520935v1.abstract)     
-**Henri Schmidt\***, Palash Sashittal\*, Michelle Chan, Benjamin J. Raphael     
-*Cell Systems,* Volume 14, Issue 12, December 2023, Pages 1113-1121.
+[<span style="color:#c869bf"><i>Startle</i>: A star homoplasy approach for CRISPR-Cas9 Lineage Tracing</span>](https://doi.org/10.1016/j.cels.2023.11.005)     
+**Henri Schmidt\***, Palash Sashittal\*, Michelle Chan, Benjamin J. Raphael<br>
+*Cell Systems,* Volume 14, Issue 12, December 2023, Pages 1113-1121. [[slides](slides/startle.pdf)]
 
 [<span style="color:#c869bf">A zero agnostic model for copy number evolution in cancer</span>](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011590)     
 **Henri Schmidt**, Palash Sashittal, Benjamin J. Raphael<br>
-*PLOS Computational Biology,* November 2023.
+*PLoS Computational Biology,* Volume 19, Issue 11, November 2023. [[slides](slides/zcnt.pdf)]   
 
 [<span style="color:#c869bf">GLIDER: function prediction from GLIDE-based neighborhoods</span>](https://academic.oup.com/bioinformatics/article/38/13/3395/6586285)     
-Kapil Devkota, **Henri Schmidt**, Matt Werenski, James M Murphy, Mert Erden, Victor Arsenescu, Lenore J Cowen  
+Kapil Devkota, **Henri Schmidt**, Matt Werenski, James M Murphy, Mert Erden, Victor Arsenescu, Lenore J Cowen<br>
 *Bioinformatics,* Volume 38, Issue 13, July 2022, Pages 3395-3406.
 
 [<span style="color:#c869bf">Base editing sensor libraries for high-throughput engineering and functional analysis of cancer-associated single nucleotide variants</span>](https://www.nature.com/articles/s41587-021-01172-3)     
-Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmidt**, ..., Scott W. Lowe, Lukas Dow.  
+Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmidt**, ..., Scott W. Lowe, Lukas Dow<br>
 *Nature biotechnology,* Volume 40, Issue 6, June 2022, Pages 862-873.
 
 ## Preprints
+
+[<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data</span>](https://doi.org/10.1101/2024.09.09.611835)     
+Palash Sashittal, Richard Y. Zhang, Benjamin K. Law, Alexander Strzalkowski, **Henri Schmidt**, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
+*bioRxiv,* September 13th, 2024.
+
 [<span style="color:#c869bf">Genome-wide CRISPR guide RNA design and specificity analysis with GuideScan2</span>](https://www.biorxiv.org/content/10.1101/2022.05.02.490368v1.abstract)     
-**Henri Schmidt**, Minsi Zhang, Haralambos Mourelatos, Francisco J. Sánchez-Rivera, Scott W. Lowe, Andrea Ventura, Christina S. Leslie, Yuri Pritykin   
+**Henri Schmidt\***, Minsi Zhang\*, Haralambos Mourelatos, Francisco J. Sánchez-Rivera, Scott W. Lowe, Andrea Ventura, Christina S. Leslie, Yuri Pritykin<br>
 *bioRxiv,* May 3rd, 2022.
 
 &nbsp;
