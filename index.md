@@ -52,12 +52,12 @@ apply these techniques to study phylogenetic optimization problems that arise in
 cancer evolution and lineage tracing. As an example,
 my recent work [fastBE](https://doi.org/10.1371/journal.pcbi.1012631) develops 
 specialized algorithms to enable large-scale phylogenetic reconstruction 
-from multi-sample bulk DNA sequencing of tumors using primal-dual methods for
-solving linear programs.
+of tumors using primal-dual methods for solving linear programs.
 
 <h2 style="margin-top:0px;"><i>Recent Updates</i></h2>
 
 <ul>
+<li>(December 2024) The tree labeling polytope manuscript was accepted for presentation at <a href="https://recomb.org/recomb2025/">RECOMB2025</a>.</li>
 <li>(December 2024) The fastBE manuscript was published in <a href="https://doi.org/10.1371/journal.pcbi.1012631"> PLoS Computational Biology</a>.</li> 
 <li>(September 2024) Attended the ICERM workshop regarding <a href="https://icerm.brown.edu/program/semester_program_workshop/sp-f24-w1#workshopparticipants">Current Methods and Open Problems in Mathematical and Statistical Phylogenetics</a>.</li>
 <li>(April 2024) The fastBE paper was presented at RECOMB-CCB.</li>
