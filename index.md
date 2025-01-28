@@ -57,6 +57,7 @@ of tumors using primal-dual methods for solving linear programs.
 <h2 style="margin-top:0px;"><i>Recent Updates</i></h2>
 
 <ul>
+<li>(January 2025) Our preprint <a href="https://www.biorxiv.org/content/10.1101/2025.01.24.634761v1">Fast tumor phylogeny regression via tree-structured dual dynamic programming</a> is now available on bioRxiv.</li>
 <li>(December 2024) The tree labeling polytope manuscript was accepted for presentation at <a href="https://recomb.org/recomb2025/">RECOMB2025</a>.</li>
 <li>(December 2024) The fastBE manuscript was published in <a href="https://doi.org/10.1371/journal.pcbi.1012631"> PLoS Computational Biology</a>.</li> 
 <li>(September 2024) Attended the ICERM workshop regarding <a href="https://icerm.brown.edu/program/semester_program_workshop/sp-f24-w1#workshopparticipants">Current Methods and Open Problems in Mathematical and Statistical Phylogenetics</a>.</li>
@@ -95,6 +96,10 @@ Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmid
 *Nature biotechnology,* Volume 40, Issue 6, June 2022, Pages 862-873.
 
 ## Preprints
+
+[<span style="color:#c869bf">Fast tumor phylogeny regression via tree-structured dual dynamic programming</span>](https://www.biorxiv.org/content/10.1101/2025.01.24.634761v1)<br>
+**Henri Schmidt\***, Yuanyuan Qi\*, Benjamin J. Raphael, Mohammed El-Kebir<br>
+*bioRxiv,* January 27th, 2025.
 
 [<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data</span>](https://doi.org/10.1101/2024.09.09.611835)     
 Palash Sashittal, Richard Y. Zhang, Benjamin K. Law, Alexander Strzalkowski, **Henri Schmidt**, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
