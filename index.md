@@ -62,10 +62,6 @@ of tumors using primal-dual methods for solving linear programs.
 <li>(December 2024) The fastBE manuscript was published in <a href="https://doi.org/10.1371/journal.pcbi.1012631"> PLoS Computational Biology</a>.</li> 
 <li>(September 2024) Attended the ICERM workshop regarding <a href="https://icerm.brown.edu/program/semester_program_workshop/sp-f24-w1#workshopparticipants">Current Methods and Open Problems in Mathematical and Statistical Phylogenetics</a>.</li>
 <li>(April 2024) The fastBE paper was presented at RECOMB-CCB.</li>
-<li>(August 2023) The ZCNT paper was published in <a href="https://doi.org/10.1371/journal.pcbi.1011590">PLoS Computational Biology</a>.</li>
-<li>(May 2023) Presented my work on the <i>zero agnostic copy number transformation (ZCNT)</i> model at the 
-<a href="https://www.birs.ca/events/2023/5-day-workshops/23w5084/schedule">Banff International Research Station for
-Mathematical Innovation and Discovery</a>.</li>
 </ul>
 
 <h2 style="margin-top:0px;"><i>Journal Publications</i></h2>
