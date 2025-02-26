@@ -58,7 +58,7 @@ of tumors using primal-dual methods for solving linear programs.
 
 <ul>
 <li>(January 2025) Our preprint <a href="https://www.biorxiv.org/content/10.1101/2025.01.24.634761v1">Fast tumor phylogeny regression via tree-structured dual dynamic programming</a> is now available on bioRxiv.</li>
-<li>(December 2024) The tree labeling polytope manuscript was accepted for presentation at <a href="https://recomb.org/recomb2025/">RECOMB2025</a>.</li>
+<li>(December 2024) The <a href="https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract">tree labeling polytope</a> manuscript was accepted for presentation at <a href="https://recomb.org/recomb2025/">RECOMB2025</a>.</li>
 <li>(December 2024) The fastBE manuscript was published in <a href="https://doi.org/10.1371/journal.pcbi.1012631"> PLoS Computational Biology</a>.</li> 
 <li>(September 2024) Attended the ICERM workshop regarding <a href="https://icerm.brown.edu/program/semester_program_workshop/sp-f24-w1#workshopparticipants">Current Methods and Open Problems in Mathematical and Statistical Phylogenetics</a>.</li>
 <li>(April 2024) The fastBE paper was presented at RECOMB-CCB.</li>
@@ -66,6 +66,10 @@ of tumors using primal-dual methods for solving linear programs.
 
 <h2 style="margin-top:0px;"><i>Journal Publications</i></h2>
 <p style="margin-top:-15px;">* denotes joint first authorship; author order is rearranged with permission from co-authors. </p>
+
+[<span style="color:#c869bf">Genome-wide CRISPR guide RNA design and specificity analysis with GuideScan2</span>](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03488-8)     
+**Henri Schmidt\***, Minsi Zhang\*, Haralambos Mourelatos, Francisco J. Sánchez-Rivera, Scott W. Lowe, Andrea Ventura, Christina S. Leslie, Yuri Pritykin<br>
+*Genome Biology,* Volume 26, Article 41, February 26, 2025.
 
 [<span style="color:#c869bf">A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors</span>](https://doi.org/10.1371/journal.pcbi.1012631)     
 **Henri Schmidt**, Benjamin J. Raphael<br>
@@ -93,6 +97,10 @@ Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmid
 
 ## Preprints
 
+[<span style="color:#c869bf">The tree labeling polytope: a unified approach to ancestral reconstruction problems</span>](https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract)<br>
+**Henri Schmidt**, Benjamin J. Raphael<br>
+*bioRxiv,* February 19th, 2025. Presenting at RECOMB 2025.
+
 [<span style="color:#c869bf">Fast tumor phylogeny regression via tree-structured dual dynamic programming</span>](https://www.biorxiv.org/content/10.1101/2025.01.24.634761v1)<br>
 **Henri Schmidt\***, Yuanyuan Qi\*, Benjamin J. Raphael, Mohammed El-Kebir<br>
 *bioRxiv,* January 27th, 2025.
@@ -100,9 +108,4 @@ Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmid
 [<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data</span>](https://doi.org/10.1101/2024.09.09.611835)     
 Palash Sashittal, Richard Y. Zhang, Benjamin K. Law, Alexander Strzalkowski, **Henri Schmidt**, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
 *bioRxiv,* September 13th, 2024.
-
-[<span style="color:#c869bf">Genome-wide CRISPR guide RNA design and specificity analysis with GuideScan2</span>](https://www.biorxiv.org/content/10.1101/2022.05.02.490368v1.abstract)     
-**Henri Schmidt\***, Minsi Zhang\*, Haralambos Mourelatos, Francisco J. Sánchez-Rivera, Scott W. Lowe, Andrea Ventura, Christina S. Leslie, Yuri Pritykin<br>
-*bioRxiv,* May 3rd, 2022.
-
 &nbsp;
