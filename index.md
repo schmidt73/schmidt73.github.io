@@ -95,17 +95,24 @@ Kapil Devkota, **Henri Schmidt**, Matt Werenski, James M Murphy, Mert Erden, Vic
 Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmidt**, ..., Scott W. Lowe, Lukas Dow<br>
 *Nature biotechnology,* Volume 40, Issue 6, June 2022, Pages 862-873.
 
-## Preprints
+## Conference Papers
 
 [<span style="color:#c869bf">The tree labeling polytope: a unified approach to ancestral reconstruction problems</span>](https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract)<br>
 **Henri Schmidt**, Benjamin J. Raphael<br>
-*bioRxiv,* February 19th, 2025. Presenting at RECOMB 2025. [[slides](slides/tlp.pptx)]
+*bioRxiv,* February 19th, 2025. Presented at RECOMB 2025. [[slides](slides/tlp.pptx)]
 
 [<span style="color:#c869bf">Fast tumor phylogeny regression via tree-structured dual dynamic programming</span>](https://www.biorxiv.org/content/10.1101/2025.01.24.634761v1)<br>
 **Henri Schmidt\***, Yuanyuan Qi\*, Benjamin J. Raphael, Mohammed El-Kebir<br>
-*bioRxiv,* January 27th, 2025.
+*bioRxiv,* January 27th, 2025. Accepted to Bioinformatics, presenting at ISMB 2025.
 
 [<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data</span>](https://doi.org/10.1101/2024.09.09.611835)     
-Palash Sashittal, Richard Y. Zhang, Benjamin K. Law, Alexander Strzalkowski, **Henri Schmidt**, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
-*bioRxiv,* September 13th, 2024.
+Palash Sashittal\*, Richard Y. Zhang\*, Benjamin K. Law, Alexander Strzalkowski, **Henri Schmidt**, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
+*bioRxiv,* September 13th, 2024. Presented at RECOMB 2025.
 &nbsp;
+
+## Manuscripts in preparation (preprints)
+
+[<span style="color:#c869bf">Outbreaks, Metastases and Homomorphisms: Phylogenetic Inference of Migration Histories of Heterogeneous Populations under Evolutionary and Structural Constraints</span>](https://www.researchsquare.com/article/rs-5040045/v1)<br>
+Kiril Kuzmin, Henri Schmidt, Sagi Snir, Benjamin Raphael, Pavel Skums<br>
+*Research Square,* September 13th, 2024.
+
