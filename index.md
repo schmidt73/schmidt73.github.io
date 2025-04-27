@@ -106,11 +106,11 @@ Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmid
 *bioRxiv,* January 27th, 2025. Accepted to Bioinformatics, presenting at ISMB 2025.
 
 [<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data</span>](https://doi.org/10.1101/2024.09.09.611835)     
-Palash Sashittal\*, Richard Y. Zhang\*, Benjamin K. Law, Alexander Strzalkowski, **Henri Schmidt**, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
+Palash Sashittal\*, Richard Y. Zhang\*, Benjamin K. Law, **Henri Schmidt**, Alexander Strzalkowski, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
 *bioRxiv,* September 13th, 2024. Presented at RECOMB 2025.
 &nbsp;
 
-## Manuscripts in preparation (preprints)
+## Manuscripts in preparation
 
 [<span style="color:#c869bf">Outbreaks, Metastases and Homomorphisms: Phylogenetic Inference of Migration Histories of Heterogeneous Populations under Evolutionary and Structural Constraints</span>](https://www.researchsquare.com/article/rs-5040045/v1)<br>
 Kiril Kuzmin, Henri Schmidt, Sagi Snir, Benjamin Raphael, Pavel Skums<br>
