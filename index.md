@@ -99,7 +99,7 @@ Francisco J Sánchez-Rivera, Bianca J Diaz, Edward R Kastenhuber, **Henri Schmid
 
 [<span style="color:#c869bf">The tree labeling polytope: a unified approach to ancestral reconstruction problems</span>](https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract)<br>
 **Henri Schmidt**, Benjamin J. Raphael<br>
-*bioRxiv,* February 19th, 2025. Presenting at RECOMB 2025.
+*bioRxiv,* February 19th, 2025. Presenting at RECOMB 2025. [[slides](slides/tlp.pptx)]
 
 [<span style="color:#c869bf">Fast tumor phylogeny regression via tree-structured dual dynamic programming</span>](https://www.biorxiv.org/content/10.1101/2025.01.24.634761v1)<br>
 **Henri Schmidt\***, Yuanyuan Qi\*, Benjamin J. Raphael, Mohammed El-Kebir<br>
