@@ -66,8 +66,9 @@ algorithms for [low-rank optimal transport](https://openreview.net/pdf?id=YKTJJC
 
 <h2 style="margin-top:0px;"><i>Journal Publications</i></h2>
 <p style="margin-top:-15px;">* denotes joint first authorship; author order is rearranged with permission from co-authors. </p>
+<p style="margin-top:-15px;">&dagger; denotes additional conference presentation.</p>
 
-[<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data</span>](https://doi.org/10.1101/2024.09.09.611835)     
+[<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data&dagger;</span>](https://doi.org/10.1101/2024.09.09.611835)     
 Palash Sashittal\*, Richard Y. Zhang\*, Benjamin K. Law, **Henri Schmidt**, Alexander Strzalkowski, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
 *In Press at Nature Methods,* September, 2025. Presented at RECOMB 2025.
 &nbsp;
@@ -76,11 +77,11 @@ Palash Sashittal\*, Richard Y. Zhang\*, Benjamin K. Law, **Henri Schmidt**, Alex
 Kiril Kuzmin, **Henri Schmidt**, Maryam Kafi Kang, Sagi Snir, Benjamin J. Raphael, Pavel Skums<br>
 *Nature Communications,* Volume 16, August 2025.
 
-[<span style="color:#c869bf">Maximum likelihood inference of time-scaled cell lineage trees with mixed-type missing data using LAML</span>](https://doi.org/10.1186/s13059-025-03649-9)<br>
+[<span style="color:#c869bf">Maximum likelihood inference of time-scaled cell lineage trees with mixed-type missing data using LAML&dagger;</span>](https://doi.org/10.1186/s13059-025-03649-9)<br>
 Gillian Chu\*, Uyen Mai\*, **Henri Schmidt**, and Benjamin J. Raphael<br>
 *Genome Biology,* Volume 26, July 2025. Presented at RECOMB 2025.
 
-[<span style="color:#c869bf">Fast tumor phylogeny regression via tree-structured dual dynamic programming</span>](https://academic.oup.com/bioinformatics/article/41/Supplement_1/i170/8199380)<br>
+[<span style="color:#c869bf">Fast tumor phylogeny regression via tree-structured dual dynamic programming&dagger;</span>](https://academic.oup.com/bioinformatics/article/41/Supplement_1/i170/8199380)<br>
 **Henri Schmidt\***, Yuanyuan Qi\*, Benjamin J. Raphael,and Mohammed El-Kebir<br>
 *Bioinformatics,* Volume 41, July 2025. Presented at ISMB 2025. [[slides](slides/fastppm.pdf)]
 
@@ -88,21 +89,21 @@ Gillian Chu\*, Uyen Mai\*, **Henri Schmidt**, and Benjamin J. Raphael<br>
 **Henri Schmidt\***, Minsi Zhang\*, Haralambos Mourelatos, Francisco J. Sánchez-Rivera, Scott W. Lowe, Andrea Ventura, Christina S. Leslie, Yuri Pritykin<br>
 *Genome Biology,* Volume 26, Article 41, February 26, 2025.
 
-[<span style="color:#c869bf">A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors</span>](https://doi.org/10.1371/journal.pcbi.1012631)     
+[<span style="color:#c869bf">A regression based approach to phylogenetic reconstruction from multi-sample bulk DNA sequencing of tumors&dagger;</span>](https://doi.org/10.1371/journal.pcbi.1012631)     
 **Henri Schmidt** and Benjamin J. Raphael<br>
-*PLoS Computational Biology,* Volume 20, Issue 12, December 2024. [[slides](slides/fastbe.pdf)]
+*PLoS Computational Biology,* Volume 20, Issue 12, December 2024. Presented at RECOMB-CCB. [[slides](slides/fastbe.pdf)]
 
 [<span style="color:#c869bf">Multi-center integrated analysis of non-coding CRISPR screens</span>](https://www.nature.com/articles/s41592-024-02216-7)     
 David Yao, Josh Tycko, ..., **Henri Schmidt**, ..., Michael C. Bassik, Steven K. Reilly<br>
 *Nature Methods,* Volume 21, Issue 4, Pages 723-734, February 2024.
 
-[<span style="color:#c869bf"><i>Startle</i>: A star homoplasy approach for CRISPR-Cas9 Lineage Tracing</span>](https://doi.org/10.1016/j.cels.2023.11.005)     
+[<span style="color:#c869bf"><i>Startle</i>: A star homoplasy approach for CRISPR-Cas9 Lineage Tracing&dagger;</span>](https://doi.org/10.1016/j.cels.2023.11.005)     
 **Henri Schmidt\***, Palash Sashittal\*, Michelle Chan, and Benjamin J. Raphael<br>
 *Cell Systems,* Volume 14, Issue 12, December 2023, Pages 1113-1121. Presented at RECOMB 2023. [[slides](slides/startle.pdf)]
 
-[<span style="color:#c869bf">A zero agnostic model for copy number evolution in cancer</span>](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011590)     
+[<span style="color:#c869bf">A zero agnostic model for copy number evolution in cancer&dagger;</span>](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011590)     
 **Henri Schmidt**, Palash Sashittal, and Benjamin J. Raphael<br>
-*PLoS Computational Biology,* Volume 19, Issue 11, November 2023. [[slides](slides/zcnt.pdf)]   
+*PLoS Computational Biology,* Volume 19, Issue 11, November 2023. Best paper at RECOMB-CCB. [[slides](slides/zcnt.pdf)]   
 
 [<span style="color:#c869bf">GLIDER: function prediction from GLIDE-based neighborhoods</span>](https://academic.oup.com/bioinformatics/article/38/13/3395/6586285)     
 Kapil Devkota, **Henri Schmidt**, Matt Werenski, James M Murphy, Mert Erden, Victor Arsenescu, Lenore J. Cowen<br>
@@ -122,11 +123,11 @@ Francisco J. Sánchez-Rivera, Bianca J. Diaz, Edward R. Kastenhuber, **Henri Sch
 
 [<span style="color:#c869bf">Transport clustering: solving low-rank optimal transport via clustering</span>](https://openreview.net/forum?id=YKTJJCNXF4)<br>
 **Henri Schmidt\***, Peter Halmos\*, and Benjamin J. Raphael<br>
-Under Review at ICLR 2026.
+Under review at ICLR 2026.
 
 <span style="color:#c869bf">LAML-Pro: Joint maximum likelihood inference of cell genotypes and cell lineage trees</span><br>
 Gillian Chu\*, **Henri Schmidt\***, and Benjamin J. Raphael<br>
-In Submission at RECOMB 2026.
+In submission at RECOMB 2026.
 
 [<span style="color:#c869bf">Genetic mechanisms of resistance to targeted KRAS inhibition</span>](https://pmc.ncbi.nlm.nih.gov/articles/PMC12340830/)<br>
 Bianca J Diaz\*, Max Kops\*, Sara Bernardo\*, **Henri Schmidt\***, ..., Lukas E. Dow<br>
