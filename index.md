@@ -57,12 +57,35 @@ algorithms for [low-rank optimal transport](https://openreview.net/pdf?id=YKTJJC
 <h2 style="margin-top:0px;"><i>Recent Updates</i></h2>
 
 <ul>
+<li>(May 2026) Our paper on low-rank OT (<a href="https://openreview.net/forum?id=YKTJJCNXF4">transport clustering</a>) was accepted for presentation at ICML 2026.</li>
+<li>(February 2026) Our papers <a href="https://www.biorxiv.org/content/10.64898/2026.03.27.714879v1.abstract">LAML-Pro</a> and <a href="https://www.biorxiv.org/content/10.64898/2026.02.25.707960v2">POTTR</a> were accepted for presentation at ISMB 2026 and RECOMB 2026, respectively.</li>
 <li>(July 2025) I presented our work <a href="https://academic.oup.com/bioinformatics/article/41/Supplement_1/i170/8199380">fastppm</a> at ISMB 2025.</li>
 <li>(January 2025) Our preprint <a href="https://www.biorxiv.org/content/10.1101/2025.01.24.634761v1">Fast tumor phylogeny regression via tree-structured dual dynamic programming</a> is now available on bioRxiv.</li>
 <li>(December 2024) The <a href="https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract">tree labeling polytope</a> manuscript was accepted for presentation at <a href="https://recomb.org/recomb2025/">RECOMB2025</a>.</li>
-<li>(December 2024) The fastBE manuscript was published in <a href="https://doi.org/10.1371/journal.pcbi.1012631"> PLoS Computational Biology</a>.</li> 
-<li>(September 2024) Attended the ICERM workshop regarding <a href="https://icerm.brown.edu/program/semester_program_workshop/sp-f24-w1#workshopparticipants">Current Methods and Open Problems in Mathematical and Statistical Phylogenetics</a>.</li>
+<!-- <li>(December 2024) The fastBE manuscript was published in <a href="https://doi.org/10.1371/journal.pcbi.1012631"> PLoS Computational Biology</a>.</li> 
+<li>(September 2024) Attended the ICERM workshop regarding <a href="https://icerm.brown.edu/program/semester_program_workshop/sp-f24-w1#workshopparticipants">Current Methods and Open Problems in Mathematical and Statistical Phylogenetics</a>.</li> -->
 </ul>
+
+## Conference Papers
+
+[<span style="color:#c869bf">Transport clustering: solving low-rank optimal transport via clustering</span>](https://openreview.net/forum?id=YKTJJCNXF4)<br>
+**Henri Schmidt\***, Peter Halmos\*, and Benjamin J. Raphael<br>
+Presenting at ICML 2026. [[openreview](https://openreview.net/forum?id=YKTJJCNXF4)]
+&nbsp;
+
+[<span style="color:#c869bf">LAML-Pro: Joint maximum likelihood inference of cell genotypes and cell lineage trees</span>](https://www.biorxiv.org/content/10.64898/2026.03.27.714879v1.abstract)<br>
+Gillian Chu\*, **Henri Schmidt\***, and Benjamin J. Raphael<br>
+*bioRxiv,* March 27th, 2026. Presenting at ISMB 2026.
+&nbsp;
+
+[<span style="color:#c869bf">POTTR: Identifying Recurrent Trajectories in Evolutionary and Developmental Processes using Posets</span>](https://www.biorxiv.org/content/10.64898/2026.02.25.707960v2)<br>
+Sara C. Käufler, **Henri Schmidt**, Martin Jürgens, Gunnar W. Klau, Palash Sashittal, and Benjamin J. Raphael<br>
+*bioRxiv,* February 2026. Presenting at RECOMB 2026.
+&nbsp;
+
+[<span style="color:#c869bf">The tree labeling polytope: a unified approach to ancestral reconstruction problems</span>](https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract)<br>
+**Henri Schmidt** and Benjamin J. Raphael<br>
+*bioRxiv,* February 19th, 2025. Presented at RECOMB 2025. [[slides](slides/tlp.pptx)]
 
 <h2 style="margin-top:0px;"><i>Journal Publications</i></h2>
 <p style="margin-top:-15px;">* denotes joint first authorship; author order is rearranged with permission from co-authors. </p>
@@ -113,21 +136,7 @@ Kapil Devkota, **Henri Schmidt**, Matt Werenski, James M Murphy, Mert Erden, Vic
 Francisco J. Sánchez-Rivera, Bianca J. Diaz, Edward R. Kastenhuber, **Henri Schmidt**, ..., Scott W. Lowe, Lukas Dow<br>
 *Nature biotechnology,* Volume 40, Issue 6, June 2022, Pages 862-873.
 
-## Conference Papers
-
-[<span style="color:#c869bf">The tree labeling polytope: a unified approach to ancestral reconstruction problems</span>](https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract)<br>
-**Henri Schmidt** and Benjamin J. Raphael<br>
-*bioRxiv,* February 19th, 2025. Presented at RECOMB 2025. [[slides](slides/tlp.pptx)]
-
 ## Manuscripts in preparation
-
-[<span style="color:#c869bf">Transport clustering: solving low-rank optimal transport via clustering</span>](https://openreview.net/forum?id=YKTJJCNXF4)<br>
-**Henri Schmidt\***, Peter Halmos\*, and Benjamin J. Raphael<br>
-Under review at ICLR 2026.
-
-<span style="color:#c869bf">LAML-Pro: Joint maximum likelihood inference of cell genotypes and cell lineage trees</span><br>
-Gillian Chu\*, **Henri Schmidt\***, and Benjamin J. Raphael<br>
-In submission at RECOMB 2026.
 
 [<span style="color:#c869bf">Genetic mechanisms of resistance to targeted KRAS inhibition</span>](https://pmc.ncbi.nlm.nih.gov/articles/PMC12340830/)<br>
 Bianca J Diaz\*, Max Kops\*, Sara Bernardo\*, **Henri Schmidt\***, ..., Lukas E. Dow<br>
