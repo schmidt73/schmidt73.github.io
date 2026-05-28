@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Henri Schmidt
-email: henri [dot] schmidt [at] princeton [dot] edu
-description: Computer Science PhD student at Princeton University.
+email: henri.smitch@gmail.com
+description: Computer Science PhD graduate from Princeton University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: henrismitch

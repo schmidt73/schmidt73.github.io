@@ -34,3 +34,12 @@ body {
   text-decoration: none; /* removes the underline from the links */
 }
 
+.page-link-active {
+  font-weight: bold;
+  border-bottom: 2px solid currentColor;
+}
+
+.site-header {
+  border-top: none;
+}
+
