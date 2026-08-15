@@ -13,22 +13,21 @@ h1.post-title { font-size: 1.5rem; letter-spacing: 0; }
 
 <p>* denotes joint first authorship; author order is rearranged with permission from co-authors.<br>&dagger; denotes additional conference presentation.</p>
 
+<div class="pub-list" markdown="1">
+
 ## Conference Papers
 
-[<span style="color:#c869bf">Transport clustering: solving low-rank optimal transport via clustering</span>](https://openreview.net/forum?id=YKTJJCNXF4)<br>
+[<span style="color:#c869bf">Transport clustering: solving low-rank optimal transport via clustering</span>](https://icml.cc/virtual/2026/poster/62477)<br>
 **Henri Schmidt\***, Peter Halmos\*, and Benjamin J. Raphael<br>
-Presenting at ICML 2026. [[openreview](https://openreview.net/forum?id=YKTJJCNXF4)]
-&nbsp;
+*International Conference on Machine Learning*, July 2026. [[poster](https://icml.cc/virtual/2026/poster/62477)]
 
-[<span style="color:#c869bf">LAML-Pro: Joint maximum likelihood inference of cell genotypes and cell lineage trees</span>](https://www.biorxiv.org/content/10.64898/2026.03.27.714879v1.abstract)<br>
+[<span style="color:#c869bf">LAML-Pro: Joint maximum likelihood inference of cell genotypes and cell lineage trees</span>](https://academic.oup.com/bioinformatics/article/42/Supplement_1/btag219/8726299)<br>
 Gillian Chu\*, **Henri Schmidt\***, and Benjamin J. Raphael<br>
-*bioRxiv,* March 27th, 2026. Presenting at ISMB 2026.
-&nbsp;
+*Bioinformatics,* July 7th, 2026. Presenting at ISMB 2026.
 
 [<span style="color:#c869bf">POTTR: Identifying Recurrent Trajectories in Evolutionary and Developmental Processes using Posets</span>](https://www.biorxiv.org/content/10.64898/2026.02.25.707960v2)<br>
 Sara C. Käufler, **Henri Schmidt**, Martin Jürgens, Gunnar W. Klau, Palash Sashittal, and Benjamin J. Raphael<br>
 *bioRxiv,* February 2026. Presenting at RECOMB 2026.
-&nbsp;
 
 [<span style="color:#c869bf">The tree labeling polytope: a unified approach to ancestral reconstruction problems</span>](https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract)<br>
 **Henri Schmidt** and Benjamin J. Raphael<br>
@@ -38,8 +37,7 @@ Sara C. Käufler, **Henri Schmidt**, Martin Jürgens, Gunnar W. Klau, Palash Sas
 
 [<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data&dagger;</span>](https://doi.org/10.1101/2024.09.09.611835)<br>
 Palash Sashittal\*, Richard Y. Zhang\*, Benjamin K. Law, **Henri Schmidt**, Alexander Strzalkowski, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>
-*In Press at Nature Methods,* September, 2025. Presented at RECOMB 2025.
-&nbsp;
+*Nature Methods,* September, 2025. Presented at RECOMB 2025.
 
 [<span style="color:#c869bf">A graph homomorphism approach for unraveling histories of metastatic cancers and viral outbreaks under evolutionary constraints</span>](https://www.nature.com/articles/s41467-025-63411-4)<br>
 Kiril Kuzmin, **Henri Schmidt**, Maryam Kafi Kang, Sagi Snir, Benjamin J. Raphael, Pavel Skums<br>
@@ -86,3 +84,5 @@ Francisco J. Sánchez-Rivera, Bianca J. Diaz, Edward R. Kastenhuber, **Henri Sch
 [<span style="color:#c869bf">Genetic mechanisms of resistance to targeted KRAS inhibition</span>](https://pmc.ncbi.nlm.nih.gov/articles/PMC12340830/)<br>
 Bianca J Diaz\*, Max Kops\*, Sara Bernardo\*, **Henri Schmidt\***, ..., Lukas E. Dow<br>
 *bioRxiv,* August 2025.
+
+</div>

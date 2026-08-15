@@ -1,13 +1,15 @@
 ---
 ---
 
+$base-font-family: "Libertinus Serif", Georgia, "Times New Roman", serif !default;
+
 @import "minima";
 
 p {
   line-height: 1.6;
 }
 body {
-    font-size: 14px;
+    font-size: 15px;
 }
 .wrapper {
     max-width: calc(1000px - (30px * 2));  /* Change this to your desired width */
@@ -41,5 +43,31 @@ body {
 
 .site-header {
   border-top: none;
+}
+
+.pub-list p {
+  margin-bottom: 0.6em;
+  line-height: 1.25;
+}
+
+#selected-publications {
+  margin-top: 1.0em;
+}
+
+blockquote {
+  color: inherit;
+  border-left: none;
+  padding-left: 0;
+  font-size: inherit;
+  letter-spacing: normal;
+  font-style: normal;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 0.5em;
+  font-style: normal;
+  font-size: 0.85em;
+  color: $grey-color;
 }
 
