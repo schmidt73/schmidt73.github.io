@@ -16,24 +16,53 @@ body {
     margin: 0 auto;    /* This centers the content */
 }
 
-.image-icon-wrapper {
-    float: right;
-    margin-left: 40px;
-    width: 200px; /* The same width as your image */
-    text-align: center; /* This will center the icons */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  margin: 1em 0 1.5em;
 }
 
-.icon-container {
-  float: left;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-left: 0px;
+.headshot {
+  flex: 0 0 350px;
+  width: 350px;
+  border: 1px solid black;
+  position: relative;
+  top: -15px;
 }
 
-.icon-container a {
-  margin-right: 10px; /* spacing between icons */
-  color: inherit; /* this makes sure the icons take the color of the surrounding text */
+.intro-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .headshot {
+    flex-basis: auto;
+    width: 100%;
+    max-width: 320px;
+    align-self: center;
+    top: 0;
+  }
+}
+
+.social-icons {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.social-icons a {
+  margin-right: 12px;
+  color: inherit; /* icons take the color of the surrounding text */
   text-decoration: none; /* removes the underline from the links */
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
 }
 
 .page-link-active {

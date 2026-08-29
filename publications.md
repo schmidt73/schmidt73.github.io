@@ -29,11 +29,11 @@ Gillian Chu\*, **Henri Schmidt\***, and Benjamin J. Raphael<br>
 Sara C. Käufler, **Henri Schmidt**, Martin Jürgens, Gunnar W. Klau, Palash Sashittal, and Benjamin J. Raphael<br>
 *bioRxiv,* February 2026. Presenting at RECOMB 2026.
 
+## Journal Publications
+
 [<span style="color:#c869bf">The tree labeling polytope: a unified approach to ancestral reconstruction problems</span>](https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract)<br>
 **Henri Schmidt** and Benjamin J. Raphael<br>
-*bioRxiv,* February 19th, 2025. Presented at RECOMB 2025. [[slides](slides/tlp.pptx)]
-
-## Journal Publications
+*Cell Systems,* July 15th, 2026. Presented at RECOMB 2025. [[slides](slides/tlp.pptx)]
 
 [<span style="color:#c869bf">Inferring cell differentiation maps from lineage tracing data&dagger;</span>](https://doi.org/10.1101/2024.09.09.611835)<br>
 Palash Sashittal\*, Richard Y. Zhang\*, Benjamin K. Law, **Henri Schmidt**, Alexander Strzalkowski, Adriano Bolondi, Michelle M. Chan, Benjamin J. Raphael<br>

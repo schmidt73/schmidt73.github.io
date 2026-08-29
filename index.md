@@ -5,38 +5,11 @@ navigation_weight: 1
 ---
 
 <style type="text/css">
-.image-left {
-  display: block;
-  margin-left: 20px;
-  margin-right: auto;
-  float: right;
-}
-.spaced-lines {line-height: 20pt;} 
+.spaced-lines {line-height: 20pt;}
 </style>
 
-<div class="image-icon-wrapper">
-    <img src="images/headshot.jpg" alt="headshot" class="image-left" width="240px" style="border: 5px solid black;">
-
-    <div class="icon-container">
-        <a href="https://scholar.google.com/citations?user=tovcdNcAAAAJ" target="_blank">
-            <i class="ai ai-google-scholar ai-2x"></i>
-        </a>
-        <a href="https://orcid.org/0000-0002-0132-3472" target="_blank">
-            <i class="ai ai-orcid ai-2x"></i>
-        </a>
-        <a href="mailto:henri.smitch@gmail.com" target="_blank">
-            <i class="fa-solid fa-envelope fa-2x"></i>
-        </a>
-        <a href="https://github.com/schmidt73" target="_blank">
-            <i class="fab fa-github-square fa-2x"></i>
-        </a>
-        <a href="https://x.com/henrismitch" target="_blank">
-            <i class="fab fa-twitter-square fa-2x"></i>
-        </a>
-    </div>
-</div>
-
-<div markdown="1" class="spaced-lines">
+<div class="intro">
+<div markdown="1" class="intro-text spaced-lines">
 
 I am a current Quantitative Researcher at [Squarepoint Capital](https://www.squarepoint-capital.com/) and 
 a recent PhD graduate from [Princeton
@@ -56,6 +29,11 @@ see the
 [New York Times](https://www.nytimes.com/2026/04/09/opinion/genetic-editing-diseases-health-care.html) coverage of the 
 story.
 
+</div>
+<img src="images/headshot.png" alt="Henri Schmidt" class="headshot">
+
+</div>
+
 ## Selected Publications
 
 <div class="pub-list" markdown="1">
@@ -70,7 +48,7 @@ Gillian Chu\*, **Henri Schmidt\***, and Benjamin J. Raphael<br>
 
 [<span style="color:#c869bf">The tree labeling polytope: a unified approach to ancestral reconstruction problems</span>](https://www.biorxiv.org/content/10.1101/2025.02.14.638328v1.abstract)<br>
 **Henri Schmidt** and Benjamin J. Raphael<br>
-*bioRxiv,* February 19th, 2025. Presented at RECOMB 2025. [[slides](slides/tlp.pptx)]
+*Cell Systems,* July 15th, 2026. Presented at RECOMB 2025. [[slides](slides/tlp.pptx)]
 
 [<span style="color:#c869bf">Fast tumor phylogeny regression via tree-structured dual dynamic programming&dagger;</span>](https://academic.oup.com/bioinformatics/article/41/Supplement_1/i170/8199380)<br>
 **Henri Schmidt\***, Yuanyuan Qi\*, Benjamin J. Raphael, and Mohammed El-Kebir<br>
