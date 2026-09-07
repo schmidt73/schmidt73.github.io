@@ -26,6 +26,8 @@ body {
 .headshot {
   flex: 0 0 350px;
   width: 350px;
+  box-sizing: border-box;
+  height: auto;
   border: 1px solid black;
   position: relative;
   top: -15px;
@@ -36,7 +38,7 @@ body {
   min-width: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .intro {
     flex-direction: column;
     gap: 1em;
@@ -100,3 +102,143 @@ blockquote cite {
   color: $grey-color;
 }
 
+
+// Allow long titles and URLs to wrap without widening the page.
+.page-content, .site-footer {
+  overflow-wrap: anywhere;
+}
+
+// Keep wide equations scrollable independently of the page.
+mjx-container[display="true"] {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25em 0;
+}
+
+@media (max-width: 800px) {
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    margin-right: 0;
+  }
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    margin-top: 0;
+    gap: 1.5em;
+  }
+
+  .intro .headshot {
+    order: -1;
+    width: calc(100% + 30px);
+    max-width: none;
+    height: auto;
+    margin-top: -30px;
+    border: none;
+    border-radius: 0;
+  }
+
+  .intro-text.spaced-lines,
+  .intro-text p {
+    line-height: 1.2;
+  }
+
+  .site-header > .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .site-header > .wrapper::after {
+    display: none;
+  }
+
+  .site-title {
+    float: none;
+    max-width: calc(100% - 100px);
+    overflow-wrap: anywhere;
+  }
+
+  .site-nav {
+    position: static;
+    float: none;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    text-align: left;
+    width: 100%;
+
+    &.nav-ready {
+      display: contents;
+    }
+
+    .menu-toggle:not([hidden]) {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 44px;
+      padding: 0 12px;
+      border: 1px solid #dedede;
+      border-radius: 6px;
+      background: transparent;
+      color: #424242;
+      font: inherit;
+      line-height: 1;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .menu-toggle[aria-expanded="true"] {
+      background: #f0f0f0;
+    }
+
+    .menu-toggle:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+
+    .trigger {
+      width: 100%;
+      padding: 8px 0 12px;
+      border-top: 1px solid #e8e8e8;
+    }
+
+    &.nav-ready .trigger {
+      display: none;
+    }
+
+    .menu-toggle[aria-expanded="true"] ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      box-sizing: border-box;
+      min-height: 44px;
+      padding: 11px 12px;
+      margin-left: 0;
+      border-bottom: none;
+      border-radius: 4px;
+    }
+
+    .page-link-active {
+      background: #f0f0f0;
+    }
+  }
+}
