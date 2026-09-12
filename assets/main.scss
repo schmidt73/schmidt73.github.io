@@ -5,6 +5,33 @@ $base-font-family: "Libertinus Serif", Georgia, "Times New Roman", serif !defaul
 
 @import "minima";
 
+.h-entry .post-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+.h-entry .post-header {
+  margin-bottom: 16px;
+}
+
+.h-entry .post-meta {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .h-entry .post-content p {
+    line-height: 1.4;
+  }
+
+  .h-entry mjx-container[display="true"] mjx-math {
+    font-size: 0.9em;
+  }
+}
+
 p {
   line-height: 1.6;
 }
@@ -239,6 +266,43 @@ mjx-container[display="true"] {
 
     .page-link-active {
       background: #f0f0f0;
+    }
+  }
+}
+
+.post-content blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 1em;
+  margin: 1.5em 0;
+}
+
+.solution-reveal {
+  margin: 1em 0;
+
+  > summary {
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  > summary:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+
+  > summary .reveal-open {
+    display: none;
+  }
+
+  &[open] > summary {
+    margin-bottom: 0.5em;
+
+    .reveal-closed {
+      display: none;
+    }
+
+    .reveal-open {
+      display: inline;
     }
   }
 }
